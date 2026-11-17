@@ -9,10 +9,10 @@ On the Windows machine you work from (your laptop with the VPN, or the dCloud Wo
 ```powershell
 cd $HOME\Downloads
 Invoke-WebRequest https://github.com/dagarcescisco/cgn-telemetry-lab/releases/latest/download/cgn-telemetry-student-kit.zip -OutFile kit.zip
-Expand-Archive kit.zip -DestinationPath C:\Labs -Force
+Expand-Archive kit.zip -DestinationPath ([Environment]::GetFolderPath('Desktop')) -Force
 ```
 
-Or download **`cgn-telemetry-student-kit.zip`** from the [Releases](https://github.com/dagarcescisco/cgn-telemetry-lab/releases/latest) page with your browser and unzip it. Then read `README.md` inside the kit.
+Or download **`cgn-telemetry-student-kit.zip`** from the [Releases](https://github.com/dagarcescisco/cgn-telemetry-lab/releases/latest) page with your browser and extract it on your Desktop. Then open the folder `cgn-telemetry-student-kit` and double-click `Start-PuTTY.cmd`: it creates the Desktop shortcuts **CGN Lab - PuTTY** and **CGN Lab - Guides**.
 
 ## What is in this repository
 

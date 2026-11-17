@@ -38,5 +38,16 @@ if (-not $ok) {
     Write-Host "The COLLECTOR (198.18.128.3:22) does not answer. Check that the VPN is connected and that the lab of the day is started and booted." -ForegroundColor Yellow
 }
 
-# 4. Open the session. The first connection asks to accept the SSH host key: answer Accept.
+# 4. Desktop shortcuts, so that the kit is easy to find (re-created on every run).
+try {
+    $desk = [Environment]::GetFolderPath("Desktop")
+    $sh = New-Object -ComObject WScript.Shell
+    $l = $sh.CreateShortcut((Join-Path $desk "CGN Lab - PuTTY.lnk"))
+    $l.TargetPath = Join-Path $kit "Start-PuTTY.cmd"; $l.WorkingDirectory = $kit
+    $l.IconLocation = "$exe,0"; $l.WindowStyle = 7; $l.Description = "PuTTY sessions of the CGN & Telemetry training lab"; $l.Save()
+    $g = $sh.CreateShortcut((Join-Path $desk "CGN Lab - Guides.lnk"))
+    $g.TargetPath = Join-Path $kit "guides"; $g.Description = "CGN & Telemetry training guides (PDF)"; $g.Save()
+} catch { }
+
+# 5. Open the session. The first connection asks to accept the SSH host key: answer Accept.
 Start-Process -FilePath $exe -ArgumentList @("-load", $Session, "-pw", "cisco")
