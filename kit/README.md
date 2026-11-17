@@ -34,6 +34,8 @@ The devices live on the lab management network (10.250.0.0/24), which is only re
 | SUB, INET-SRV | 10.250.0.16, 10.250.0.17 | Linux hosts |
 | PE-ACC | 10.250.0.18 | IOS XE (IOL) |
 
+The device sessions prefer the AES-GCM cipher on purpose: the IOS XR routers (PE-A, PE-B) drop the connection with PuTTY's default cipher. If you create a session by hand for a router, set *Connection > SSH > Cipher* to put **AES-GCM** first.
+
 If a device session does not open, use the **COLLECTOR** session and run `ssh cisco@<address>` from there: it always works.
 
 ## Notes

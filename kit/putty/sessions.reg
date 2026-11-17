@@ -21,6 +21,7 @@ Windows Registry Editor Version 5.00
 "UserName"="cisco"
 "ScrollbackLines"=dword:00002710
 "WinTitle"="CORE"
+"Cipher"="aesgcm,chacha20,aes,3des,WARN,des,arcfour"
 "ProxyMethod"=dword:00000006
 "ProxyHost"="198.18.128.3"
 "ProxyPort"=dword:00000016
@@ -34,6 +35,7 @@ Windows Registry Editor Version 5.00
 "UserName"="cisco"
 "ScrollbackLines"=dword:00002710
 "WinTitle"="PE-A"
+"Cipher"="aesgcm,chacha20,aes,3des,WARN,des,arcfour"
 "ProxyMethod"=dword:00000006
 "ProxyHost"="198.18.128.3"
 "ProxyPort"=dword:00000016
@@ -47,6 +49,7 @@ Windows Registry Editor Version 5.00
 "UserName"="cisco"
 "ScrollbackLines"=dword:00002710
 "WinTitle"="PE-B"
+"Cipher"="aesgcm,chacha20,aes,3des,WARN,des,arcfour"
 "ProxyMethod"=dword:00000006
 "ProxyHost"="198.18.128.3"
 "ProxyPort"=dword:00000016
@@ -60,6 +63,7 @@ Windows Registry Editor Version 5.00
 "UserName"="cisco"
 "ScrollbackLines"=dword:00002710
 "WinTitle"="CGN-A1"
+"Cipher"="aesgcm,chacha20,aes,3des,WARN,des,arcfour"
 "ProxyMethod"=dword:00000006
 "ProxyHost"="198.18.128.3"
 "ProxyPort"=dword:00000016
@@ -73,6 +77,7 @@ Windows Registry Editor Version 5.00
 "UserName"="cisco"
 "ScrollbackLines"=dword:00002710
 "WinTitle"="CGN-B1"
+"Cipher"="aesgcm,chacha20,aes,3des,WARN,des,arcfour"
 "ProxyMethod"=dword:00000006
 "ProxyHost"="198.18.128.3"
 "ProxyPort"=dword:00000016
@@ -86,6 +91,7 @@ Windows Registry Editor Version 5.00
 "UserName"="cisco"
 "ScrollbackLines"=dword:00002710
 "WinTitle"="SUB"
+"Cipher"="aesgcm,chacha20,aes,3des,WARN,des,arcfour"
 "ProxyMethod"=dword:00000006
 "ProxyHost"="198.18.128.3"
 "ProxyPort"=dword:00000016
@@ -99,6 +105,7 @@ Windows Registry Editor Version 5.00
 "UserName"="cisco"
 "ScrollbackLines"=dword:00002710
 "WinTitle"="INET-SRV"
+"Cipher"="aesgcm,chacha20,aes,3des,WARN,des,arcfour"
 "ProxyMethod"=dword:00000006
 "ProxyHost"="198.18.128.3"
 "ProxyPort"=dword:00000016
@@ -112,6 +119,7 @@ Windows Registry Editor Version 5.00
 "UserName"="cisco"
 "ScrollbackLines"=dword:00002710
 "WinTitle"="PE-ACC"
+"Cipher"="aesgcm,chacha20,aes,3des,WARN,des,arcfour"
 "ProxyMethod"=dword:00000006
 "ProxyHost"="198.18.128.3"
 "ProxyPort"=dword:00000016
