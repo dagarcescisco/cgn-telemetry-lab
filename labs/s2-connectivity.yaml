@@ -1,0 +1,1190 @@
+annotations:
+- border_color: '#808080FF'
+  border_radius: 0
+  border_style: ''
+  color: '#CDFFC3'
+  rotation: 0
+  thickness: 1
+  type: rectangle
+  x1: -480.0
+  y1: 160.0
+  x2: 360.0
+  y2: 440.0
+  z_index: 0
+- border_color: '#808080FF'
+  border_radius: 0
+  border_style: ''
+  color: '#CDFFC3'
+  rotation: 0
+  thickness: 1
+  type: rectangle
+  x1: 120.0
+  y1: 160.0
+  x2: 360.0
+  y2: 440.0
+  z_index: 0
+- border_color: '#808080FF'
+  border_style: ''
+  color: '#FC9292'
+  rotation: 0
+  thickness: 1
+  type: ellipse
+  x1: 0.0
+  y1: 20.0
+  x2: 160.0
+  y2: 80.0
+  z_index: 2
+- border_color: '#808080FF'
+  border_radius: 0
+  border_style: ''
+  color: '#9DE0FF'
+  rotation: 0
+  thickness: 1
+  type: rectangle
+  x1: -560.0
+  y1: -320.0
+  x2: 320.0
+  y2: 200.0
+  z_index: 0
+- border_color: '#808080FF'
+  border_radius: 0
+  border_style: ''
+  color: '#CDFFC3'
+  rotation: 0
+  thickness: 1
+  type: rectangle
+  x1: -120.0
+  y1: -320.0
+  x2: 480.0
+  y2: 200.0
+  z_index: 0
+- border_color: '#808080FF'
+  border_radius: 0
+  border_style: ''
+  color: '#9DE0FF'
+  rotation: 0
+  thickness: 1
+  type: rectangle
+  x1: -120.0
+  y1: -560.0
+  x2: 240.0
+  y2: 160.0
+  z_index: 0
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: SITE A
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -440.0
+  y1: 560.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: SITE B
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 160.0
+  y1: 560.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'SUBSCRIBERS
+
+    MOB-A
+
+    MOB-B'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -520.0
+  y1: -200.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: INET
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -80.0
+  y1: -440.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: ACCESS SITE
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 200.0
+  y1: -160.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: true
+  text_content: 'CGN & TELEMETRY TRAINING LAB  |  STAGE S2 - CONNECTIVITY  |  users: cisco/cisco or admin/C1sco12345'
+  text_font: monospace
+  text_italic: false
+  text_size: 14
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -560.0
+  y1: -640.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'OOB 10.250.0.0/24 (global table)
+
+    .10 COLLECTOR (jump host)  .11 CORE
+
+    .12 PE-A  .13 PE-B  .14 CGN-A1  .15 CGN-B1
+
+    .16 SUB  .17 INET-SRV  .18 PE-ACC
+
+    From COLLECTOR: ssh to all'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 540.0
+  y1: -440.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'PE<->CGN subinterfaces: 130 MOB-A | 131 INET (MOB-A) | 140 MOB-B | 141 INET (MOB-B) | 170 TLM
+
+    Images: XRv9000 25.1.1 (20 GB, ~11 min boot) | C8000V 17.16.01a | IOL 17.16.01a | Ubuntu 24.04 | Alpine 3.21'
+  text_font: monospace
+  text_italic: false
+  text_size: 10
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -560.0
+  y1: 760.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'VLAN / IP (one VRF per service on PE-ACC)
+
+    MOB-A  VLAN 130  100.64.0.0/24
+
+    MOB-B  VLAN 140  100.64.1.0/24
+
+    SUB: .2 in each VLAN, gw .1'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -560.0
+  y1: -80.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: INET 192.0.2.0/24 (INET-SRV .10)
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -560.0
+  y1: -540.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'TELEMETRY (VRF TLM)
+
+    PE-ACC 10.200.0.1/30 <-> COLLECTOR .2
+
+    TLM Lo2: 10.200.1.x (MDT/NetFlow source)
+
+    ens4 -> EXT: Internet (CML NAT)'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 400.0
+  y1: -190.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'CORE: Lo0 10.255.0.1
+
+    /31 links (10.100.10.x):
+
+    PE-A .0 | PE-B .2 | PE-ACC .4'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 190.0
+  y1: -40.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'SITE A  10.100.1.0/24
+
+    PE-A XRv9000 Lo0 .11  (Bundle-Ether11)
+
+    CGN-A1 C8000V Lo0 .21 (Port-channel11)
+
+    LACP 2 x Gi: Gi0/0/0/1-2 <-> Gi2-3'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -480.0
+  y1: 620.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'SITE B  10.100.2.0/24
+
+    PE-B XRv9000 Lo0 .12  (Bundle-Ether11)
+
+    CGN-B1 C8000V Lo0 .22 (Port-channel11)
+
+    LACP 2 x Gi: Gi0/0/0/1-2 <-> Gi2-3'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 120.0
+  y1: 620.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: "LAB STATE\nStage S2 - CONNECTIVITY (L1)\n\nWHAT IS THERE (new)\n- An IP on every link (/31), loopbacks\n- LACP bundle PE-CGN: Be11 (XR) and\n  Po11 (C8000V), 2 members\n- dot1q subinterfaces per service:\n  130/131 MOB-A, 140/141 MOB-B,\n  170 TLM\n- VRFs on PE-ACC, PE and CGN (on the\n  CGN they are VRF-lite: no MPLS/BGP)\n\nWHAT IS NOT THERE (yet)\n- Routing, RT, NAT\n\nWHAT TO TRY\n- ping only between direct neighbors\n- show bundle / show etherchannel\n- show ip vrf ; ping vrf MOB-A ...\n- Verify: labcheck 2 (on COLLECTOR)\n\nVALUE\nEach VLAN is a service. CGN inside\nand outside travel over the same\nbundle in different VLANs.\n\nNEXT: S3 Routing (L2)"
+  text_font: monospace
+  text_italic: false
+  text_size: 11
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -940.0
+  y1: -560.0
+  z_index: 1
+smart_annotations:
+- tag: ACCESS
+  is_on: false
+  padding: 35
+  label: ACCESS
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#fd983980'
+  border_color: '#00000080'
+  z_index: 16
+- tag: ALPINE
+  is_on: false
+  padding: 35
+  label: ALPINE
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#A4C8E180'
+  border_color: '#00000080'
+  z_index: 12
+- tag: C8000V
+  is_on: false
+  padding: 35
+  label: C8000V
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#D5006D80'
+  border_color: '#00000080'
+  z_index: 10
+- tag: CENTER
+  is_on: false
+  padding: 35
+  label: CENTER
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#FFD10080'
+  border_color: '#00000080'
+  z_index: 15
+- tag: CGN
+  is_on: false
+  padding: 35
+  label: CGN
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#F16A2080'
+  border_color: '#00000080'
+  z_index: 9
+- tag: COLLECTOR
+  is_on: false
+  padding: 35
+  label: COLLECTOR
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#4B4D4F80'
+  border_color: '#00000080'
+  z_index: 19
+- tag: HOST
+  is_on: false
+  padding: 35
+  label: HOST
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#009C8C80'
+  border_color: '#00000080'
+  z_index: 11
+- tag: IOL
+  is_on: false
+  padding: 35
+  label: IOL
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#F8A30080'
+  border_color: '#00000080'
+  z_index: 3
+- tag: P-RR
+  is_on: false
+  padding: 35
+  label: P-RR
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#A7A8AA80'
+  border_color: '#00000080'
+  z_index: 1
+- tag: PE
+  is_on: false
+  padding: 35
+  label: PE
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#A95FBE80'
+  border_color: '#00000080'
+  z_index: 4
+- tag: SITE-A
+  is_on: false
+  padding: 35
+  label: SITE-A
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#a583ac80'
+  border_color: '#00000080'
+  z_index: 17
+- tag: SITE-B
+  is_on: false
+  padding: 35
+  label: SITE-B
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#b81cfc80'
+  border_color: '#00000080'
+  z_index: 18
+- tag: UBUNTU
+  is_on: false
+  padding: 35
+  label: UBUNTU
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#005C9980'
+  border_color: '#00000080'
+  z_index: 14
+- tag: XR
+  is_on: false
+  padding: 35
+  label: XR
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#007A3380'
+  border_color: '#00000080'
+  z_index: 7
+nodes:
+- boot_disk_size: null
+  configuration:
+  - name: ios_config.txt
+    content: "Building configuration...\n\nCurrent configuration : 2009 bytes\n!\n! Last configuration change at 07:18:54 UTC Sat Nov 14 2026\n!\nversion 17.16\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname CORE\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno logging console\nno aaa new-model\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nip domain name lab.local\nip cef\nlogin on-success log\nno ipv6 cef\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nmemory free low-watermark processor 79983\n!\n!\nspanning-tree mode rapid-pvst\n!\n!\nusername cisco privilege 15 secret 9 $9$A.6qVhRZrJjjJE$/LFzwvZtymhbH/CSXWZfCicWLiOfeEn24hsp6RY7wYg\nusername admin privilege 15 secret 9 $9$.t4TAKqsOAa..U$i2iIG.mOxPYGHWpmR8l0TMH6dUe.uGS1FaXGZTsBQ7s\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface Loopback0\n ip address 10.255.0.1 255.255.255.255\n!\ninterface Ethernet0/0\n description to PE-A\n ip address 10.100.10.0 255.255.255.254\n!\ninterface Ethernet0/1\n description to PE-B\n ip address 10.100.10.2 255.255.255.254\n!\ninterface Ethernet0/2\n description to PE-ACC\n ip address 10.100.10.4 255.255.255.254\n!\ninterface Ethernet0/3\n no ip address\n shutdown\n!\ninterface Ethernet1/0\n no ip address\n shutdown\n!\ninterface Ethernet1/1\n description OOB\n ip address 10.250.0.11 255.255.255.0\n!\ninterface Ethernet1/2\n no ip address\n shutdown\n!\ninterface Ethernet1/3\n no ip address\n shutdown\n!\nip forward-protocol nd\nip forward-protocol udp\n!\n!\nip http server\nip http secure-server\nip ssh bulk-mode 131072\nno logging btrace\n!\n!\n!\ncontrol-plane\n!\n!\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n login local\n transport input ssh\n!\n!\n!\nevent manager applet GENKEYS authorization bypass\n event timer countdown name GK time 45\n action 1.0 cli command \"enable\"\n action 2.0 cli command \"show crypto key mypubkey rsa\"\n action 3.0 regexp \"Key name\" \"$_cli_result\"\n action 4.0 if $_regexp_result eq \"0\"\n action 5.0  cli command \"configure terminal\"\n action 6.0  cli command \"crypto key generate rsa modulus 2048\"\n action 7.0  cli command \"end\"\n action 8.0 end\n!\nclock timezone UTC 0 0\nntp master 3\nbanner motd #\n==============================================================\n CORE  |  Center  |  IOL XE 17.16.01a\n Role: Core P + VPNv4 route reflector (no VRFs). Lab NTP server\n Data links:\n   Ethernet0/0            -> PE-A GigabitEthernet0/0/0/0\n   Ethernet0/1            -> PE-B GigabitEthernet0/0/0/0\n   Ethernet0/2            -> PE-ACC Ethernet0/0\n   OOB 10.250.0.11/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nend"
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n0
+  image_definition: iol-xe-17-16-01a
+  label: CORE
+  node_definition: iol-xe
+  parameters: {}
+  ram: null
+  tags:
+  - P-RR
+  - IOL
+  - CENTER
+  x: 0
+  y: 0
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: Ethernet0/0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: Ethernet0/1
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: Ethernet0/2
+    mac_address: null
+    type: physical
+    slot: 2
+  - id: i4
+    label: Ethernet0/3
+    mac_address: null
+    type: physical
+    slot: 3
+  - id: i5
+    label: Ethernet1/0
+    mac_address: null
+    type: physical
+    slot: 4
+  - id: i6
+    label: Ethernet1/1
+    mac_address: null
+    type: physical
+    slot: 5
+- boot_disk_size: null
+  configuration:
+  - name: ios_config.txt
+    content: "Building configuration...\n\nCurrent configuration : 2537 bytes\n!\n! Last configuration change at 07:18:58 UTC Sat Nov 14 2026\n!\nversion 17.16\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\n!\nhostname PE-ACC\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno logging console\nno aaa new-model\n!\n!\n!\n!\nip vrf INET\n rd 10.255.0.2:103\n!\nip vrf MOB-A\n rd 10.255.0.2:101\n!\nip vrf MOB-B\n rd 10.255.0.2:102\n!\nip vrf TLM\n rd 10.255.0.2:104\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nip domain name lab.local\nip cef\nlogin on-success log\nno ipv6 cef\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nmemory free low-watermark processor 79983\n!\n!\nspanning-tree mode rapid-pvst\n!\n!\nusername cisco privilege 15 secret 9 $9$Dcem5ytK6ZuVIE$XWcfaBfebu/ytCq0j7xKfvUwXUXRa0VAR0Ersd4XWtI\nusername admin privilege 15 secret 9 $9$yJR632CJVvf4v.$KbaqgAmk64MCThSJmfZ4JcQGScTCmZiqYN13HHye98M\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface Loopback0\n ip address 10.255.0.2 255.255.255.255\n!\ninterface Loopback2\n ip vrf forwarding TLM\n ip address 10.200.1.2 255.255.255.255\n!\ninterface Ethernet0/0\n description to CORE\n ip address 10.100.10.5 255.255.255.254\n!\ninterface Ethernet0/1\n description to SUB (mobile core)\n no ip address\n!\ninterface Ethernet0/1.130\n encapsulation dot1Q 130\n ip vrf forwarding MOB-A\n ip address 100.64.0.1 255.255.255.0\n!\ninterface Ethernet0/1.140\n encapsulation dot1Q 140\n ip vrf forwarding MOB-B\n ip address 100.64.1.1 255.255.255.0\n!\ninterface Ethernet0/2\n description to INET-SRV\n ip vrf forwarding INET\n ip address 192.0.2.1 255.255.255.0\n!\ninterface Ethernet0/3\n description to COLLECTOR (TLM)\n ip vrf forwarding TLM\n ip address 10.200.0.1 255.255.255.252\n!\ninterface Ethernet1/0\n description OOB\n ip address 10.250.0.18 255.255.255.0\n!\ninterface Ethernet1/1\n no ip address\n shutdown\n!\ninterface Ethernet1/2\n no ip address\n shutdown\n!\ninterface Ethernet1/3\n no ip address\n shutdown\n!\nip forward-protocol nd\nip forward-protocol udp\n!\n!\nip http server\nip http secure-server\nip ssh bulk-mode 131072\nno logging btrace\n!\n!\n!\ncontrol-plane\n!\n!\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n login local\n transport input ssh\n!\n!\n!\nevent manager applet GENKEYS authorization bypass\n event timer countdown name GK time 45\n action 1.0 cli command \"enable\"\n action 2.0 cli command \"show crypto key mypubkey rsa\"\n action 3.0 regexp \"Key name\" \"$_cli_result\"\n action 4.0 if $_regexp_result eq \"0\"\n action 5.0  cli command \"configure terminal\"\n action 6.0  cli command \"crypto key generate rsa modulus 2048\"\n action 7.0  cli command \"end\"\n action 8.0 end\n!\nclock timezone UTC 0 0\nntp server 10.250.0.11\nbanner motd #\n==============================================================\n PE-ACC  |  Access  |  IOL XE 17.16.01a\n Role: Access PE (PC_PE): SUB, INET-SRV and COLLECTOR hang off it\n Data links:\n   Ethernet0/0            -> CORE Ethernet0/2\n   Ethernet0/1            -> SUB eth0\n   Ethernet0/2            -> INET-SRV eth0\n   Ethernet0/3            -> COLLECTOR ens2\n   OOB 10.250.0.18/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nend"
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n1
+  image_definition: iol-xe-17-16-01a
+  label: PE-ACC
+  node_definition: iol-xe
+  parameters: {}
+  ram: null
+  tags:
+  - PE
+  - IOL
+  - ACCESS
+  x: 0
+  y: -240
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: Ethernet0/0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: Ethernet0/1
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: Ethernet0/2
+    mac_address: null
+    type: physical
+    slot: 2
+  - id: i4
+    label: Ethernet0/3
+    mac_address: null
+    type: physical
+    slot: 3
+  - id: i5
+    label: Ethernet1/0
+    mac_address: null
+    type: physical
+    slot: 4
+- boot_disk_size: null
+  configuration:
+  - name: iosxr_config.txt
+    content: "\nSat Nov 14 07:19:04.663 UTC\n!! Building configuration...\n!! IOS XR Configuration 25.1.1\n!! Last configuration change at Sat Nov 14 07:19:03 2026 by cisco\n!\nhostname PE-A\nlogging console disable\nusername cisco\n group root-lr\n group cisco-support\n secret 10 $6$BoEZC0BIdXJu6C0.$Dqy51gF2aw/t5No7iHL6o8cBSA1dlwjgwxj1NSdKZNCe87qqMWDHPaUnWttUZc.GW8gWCgRJPaqZAKd/uWG330\n!\nusername admin\n group root-lr\n group cisco-support\n secret 10 $6$suOKK0iaZZNN7K0.$WYes3..19QRYTLC3QoHI3yAN2CRfqg1YGdEVHxZStqh9n2c/Xw.BMs1fYPsJm9Sizeg15eF6X6ltVfFD5SARq0\n!\nvrf TLM\n address-family ipv4 unicast\n !\n!\nvrf INET\n address-family ipv4 unicast\n !\n!\nvrf MOB-A\n address-family ipv4 unicast\n !\n!\nvrf MOB-B\n address-family ipv4 unicast\n !\n!\nline console\n exec-timeout 0 0\n absolute-timeout 0\n session-timeout 0\n!\nline default\n exec-timeout 0 0\n absolute-timeout 0\n session-timeout 0\n transport input ssh\n!\ninterface Bundle-Ether11\n no shutdown\n description to CGN (LACP)\n!\ninterface Bundle-Ether11.130\n vrf MOB-A\n ipv4 address 10.100.1.0 255.255.255.254\n encapsulation dot1q 130\n!\ninterface Bundle-Ether11.131\n vrf INET\n ipv4 address 10.100.1.2 255.255.255.254\n encapsulation dot1q 131\n!\ninterface Bundle-Ether11.140\n vrf MOB-B\n ipv4 address 10.100.1.4 255.255.255.254\n encapsulation dot1q 140\n!\ninterface Bundle-Ether11.141\n vrf INET\n ipv4 address 10.100.1.6 255.255.255.254\n encapsulation dot1q 141\n!\ninterface Bundle-Ether11.170\n vrf TLM\n ipv4 address 10.100.1.8 255.255.255.254\n encapsulation dot1q 170\n!\ninterface Loopback0\n ipv4 address 10.255.0.11 255.255.255.255\n!\ninterface Loopback2\n vrf TLM\n ipv4 address 10.200.1.11 255.255.255.255\n!\ninterface MgmtEth0/RP0/CPU0/0\n no shutdown\n description OOB\n ipv4 address 10.250.0.12 255.255.255.0\n!\ninterface GigabitEthernet0/0/0/0\n no shutdown\n description to CORE\n ipv4 address 10.100.10.1 255.255.255.254\n!\ninterface GigabitEthernet0/0/0/1\n no shutdown\n bundle id 11 mode active\n!\ninterface GigabitEthernet0/0/0/2\n no shutdown\n bundle id 11 mode active\n!\nssh server v2\nssh server vrf default\nntp\n server 10.250.0.11\n!\nbanner motd #\n==============================================================\n PE-A  |  Site A  |  IOS XRv 9000 25.1.1\n Role: Site A PE: client of the CORE and neighbor of CGN-A1\n Data links:\n   GigabitEthernet0/0/0/0 -> CORE Ethernet0/0\n   GigabitEthernet0/0/0/1 -> CGN-A1 GigabitEthernet2\n   GigabitEthernet0/0/0/2 -> CGN-A1 GigabitEthernet3\n   OOB 10.250.0.12/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nend"
+  cpu_limit: null
+  cpus: 4
+  data_volume: null
+  hide_links: false
+  id: n2
+  image_definition: iosxrv9000-25-1-1
+  label: PE-A
+  node_definition: iosxrv9000
+  parameters: {}
+  ram: 20480
+  tags:
+  - PE
+  - XR
+  - SITE-A
+  x: -300
+  y: 250
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: MgmtEth0/RP0/CPU0/0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: donotuse1
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: donotuse2
+    mac_address: null
+    type: physical
+    slot: 2
+  - id: i4
+    label: GigabitEthernet0/0/0/0
+    mac_address: null
+    type: physical
+    slot: 3
+  - id: i5
+    label: GigabitEthernet0/0/0/1
+    mac_address: null
+    type: physical
+    slot: 4
+  - id: i6
+    label: GigabitEthernet0/0/0/2
+    mac_address: null
+    type: physical
+    slot: 5
+- boot_disk_size: null
+  configuration:
+  - name: iosxr_config.txt
+    content: "\nSat Nov 14 07:19:09.137 UTC\n!! Building configuration...\n!! IOS XR Configuration 25.1.1\n!! Last configuration change at Sat Nov 14 07:19:08 2026 by cisco\n!\nhostname PE-B\nlogging console disable\nusername cisco\n group root-lr\n group cisco-support\n secret 10 $6$KXeQr0c8rhmR9r0.$mlkLLMK.1sUfhvAaXTM3kiAnICZoL4WSgD50eP2L6Orhw593BFk3nxibMl0HD.6pFqWTxWu.RBbhfZdhi1pqp1\n!\nusername admin\n group root-lr\n group cisco-support\n secret 10 $6$l62/z10Fkz2wDz1.$KDfZN4uNNsDyFP8ldBPbuhg49eF8sLlARsoJVdWfp5C.CCvbR675hGXV4aRXrK1sXbIm9dBdyXpHNIKxSe9n7.\n!\nvrf TLM\n address-family ipv4 unicast\n !\n!\nvrf INET\n address-family ipv4 unicast\n !\n!\nvrf MOB-A\n address-family ipv4 unicast\n !\n!\nvrf MOB-B\n address-family ipv4 unicast\n !\n!\nline console\n exec-timeout 0 0\n absolute-timeout 0\n session-timeout 0\n!\nline default\n exec-timeout 0 0\n absolute-timeout 0\n session-timeout 0\n transport input ssh\n!\ninterface Bundle-Ether11\n no shutdown\n description to CGN (LACP)\n!\ninterface Bundle-Ether11.130\n vrf MOB-A\n ipv4 address 10.100.2.0 255.255.255.254\n encapsulation dot1q 130\n!\ninterface Bundle-Ether11.131\n vrf INET\n ipv4 address 10.100.2.2 255.255.255.254\n encapsulation dot1q 131\n!\ninterface Bundle-Ether11.140\n vrf MOB-B\n ipv4 address 10.100.2.4 255.255.255.254\n encapsulation dot1q 140\n!\ninterface Bundle-Ether11.141\n vrf INET\n ipv4 address 10.100.2.6 255.255.255.254\n encapsulation dot1q 141\n!\ninterface Bundle-Ether11.170\n vrf TLM\n ipv4 address 10.100.2.8 255.255.255.254\n encapsulation dot1q 170\n!\ninterface Loopback0\n ipv4 address 10.255.0.12 255.255.255.255\n!\ninterface Loopback2\n vrf TLM\n ipv4 address 10.200.1.12 255.255.255.255\n!\ninterface MgmtEth0/RP0/CPU0/0\n no shutdown\n description OOB\n ipv4 address 10.250.0.13 255.255.255.0\n!\ninterface GigabitEthernet0/0/0/0\n no shutdown\n description to CORE\n ipv4 address 10.100.10.3 255.255.255.254\n!\ninterface GigabitEthernet0/0/0/1\n no shutdown\n bundle id 11 mode active\n!\ninterface GigabitEthernet0/0/0/2\n no shutdown\n bundle id 11 mode active\n!\nssh server v2\nssh server vrf default\nntp\n server 10.250.0.11\n!\nbanner motd #\n==============================================================\n PE-B  |  Site B  |  IOS XRv 9000 25.1.1\n Role: Site B PE: client of the CORE and neighbor of CGN-B1\n Data links:\n   GigabitEthernet0/0/0/0 -> CORE Ethernet0/1\n   GigabitEthernet0/0/0/1 -> CGN-B1 GigabitEthernet2\n   GigabitEthernet0/0/0/2 -> CGN-B1 GigabitEthernet3\n   OOB 10.250.0.13/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nend"
+  cpu_limit: null
+  cpus: 4
+  data_volume: null
+  hide_links: false
+  id: n3
+  image_definition: iosxrv9000-25-1-1
+  label: PE-B
+  node_definition: iosxrv9000
+  parameters: {}
+  ram: 20480
+  tags:
+  - PE
+  - XR
+  - SITE-B
+  x: 300
+  y: 250
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: MgmtEth0/RP0/CPU0/0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: donotuse1
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: donotuse2
+    mac_address: null
+    type: physical
+    slot: 2
+  - id: i4
+    label: GigabitEthernet0/0/0/0
+    mac_address: null
+    type: physical
+    slot: 3
+  - id: i5
+    label: GigabitEthernet0/0/0/1
+    mac_address: null
+    type: physical
+    slot: 4
+  - id: i6
+    label: GigabitEthernet0/0/0/2
+    mac_address: null
+    type: physical
+    slot: 5
+- boot_disk_size: null
+  configuration:
+  - name: iosxe_config.txt
+    content: "Building configuration...\n\nCurrent configuration : 4807 bytes\n!\n! Last configuration change at 07:19:14 UTC Sat Nov 14 2026\n!\nversion 17.16\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nplatform qfp utilization monitor load 80\nplatform sslvpn use-pd\nplatform console serial\n!\nhostname CGN-A1\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno logging console\nno aaa new-model\n!\n!\n!\n!\n!\n!\nip vrf MOB-A\n!\nip vrf MOB-B\n!\nip vrf TLM\n!\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nip domain name lab.local\n!\n!\n!\nlogin on-success log\n!\n!\nsubscriber templating\n!\n!\n!\ncrypto pki trustpoint SLA-TrustPoint\n enrollment pkcs12\n revocation-check crl\n hash sha512\n!\n!\ncrypto pki certificate chain SLA-TrustPoint\n certificate ca 01\n  30820321 30820209 A0030201 02020101 300D0609 2A864886 F70D0101 0B050030\n  32310E30 0C060355 040A1305 43697363 6F312030 1E060355 04031317 43697363\n  6F204C69 63656E73 696E6720 526F6F74 20434130 1E170D31 33303533 30313934\n  3834375A 170D3338 30353330 31393438 34375A30 32310E30 0C060355 040A1305\n  43697363 6F312030 1E060355 04031317 43697363 6F204C69 63656E73 696E6720\n  526F6F74 20434130 82012230 0D06092A 864886F7 0D010101 05000382 010F0030\n  82010A02 82010100 A6BCBD96 131E05F7 145EA72C 2CD686E6 17222EA1 F1EFF64D\n  CBB4C798 212AA147 C655D8D7 9471380D 8711441E 1AAF071A 9CAE6388 8A38E520\n  1C394D78 462EF239 C659F715 B98C0A59 5BBB5CBD 0CFEBEA3 700A8BF7 D8F256EE\n  4AA4E80D DB6FD1C9 60B1FD18 FFC69C96 6FA68957 A2617DE7 104FDC5F EA2956AC\n  7390A3EB 2B5436AD C847A2C5 DAB553EB 69A9A535 58E9F3E3 C0BD23CF 58BD7188\n  68E69491 20F320E7 948E71D7 AE3BCC84 F10684C7 4BC8E00F 539BA42B 42C68BB7\n  C7479096 B4CB2D62 EA2F505D C7B062A4 6811D95B E8250FC4 5D5D5FB8 8F27D191\n  C55F0D76 61F9A4CD 3D992327 A8BB03BD 4E6D7069 7CBADF8B DF5F4368 95135E44\n  DFC7C6CF 04DD7FD1 02030100 01A34230 40300E06 03551D0F 0101FF04 04030201\n  06300F06 03551D13 0101FF04 05300301 01FF301D 0603551D 0E041604 1449DC85\n  4B3D31E5 1B3E6A17 606AF333 3D3B4C73 E8300D06 092A8648 86F70D01 010B0500\n  03820101 00507F24 D3932A66 86025D9F E838AE5C 6D4DF6B0 49631C78 240DA905\n  604EDCDE FF4FED2B 77FC460E CD636FDB DD44681E 3A5673AB 9093D3B1 6C9E3D8B\n  D98987BF E40CBD9E 1AECA0C2 2189BB5C 8FA85686 CD98B646 5575B146 8DFC66A8\n  467A3DF4 4D565700 6ADF0F0D CF835015 3C04FF7C 21E878AC 11BA9CD2 55A9232C\n  7CA7B7E6 C1AF74F6 152E99B7 B1FCF9BB E973DE7F 5BDDEB86 C71E3B49 1765308B\n  5FB0DA06 B92AFE7F 494E8A9E 07B85737 F3A58BE1 1A48A229 C37C1E69 39F08678\n  80DDCD16 D6BACECA EEBC7CF9 8428787B 35202CDC 60E4616A B623CDBD 230E3AFB\n  418616A9 4093E049 4D10AB75 27E86F73 932E35B5 8862FDAE 0275156F 719BB2F0\n  D697DF7F 28\n  \tquit\n!\n!\nlicense udi pid C8000V sn 9VFB9BXVNEW\nmemory free low-watermark processor 165529\ndiagnostic bootup level minimal\n!\n!\n!\nusername cisco privilege 15 secret 9 $9$2s.zMYbDc3kqEU$Ttxk6Aahhw9fpyYRXVaKoNQQX.PGmrFK5EwO1IquU/2\nusername admin privilege 15 secret 9 $9$DdrnZTv8NUUXP.$4Lj1Eu3bMmhBFmsMQyWqM2YnlGelPu0IDabgO6QZa4s\n!\nredundancy\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface Loopback0\n ip address 10.255.0.21 255.255.255.255\n!\ninterface Loopback2\n ip vrf forwarding TLM\n ip address 10.200.1.21 255.255.255.255\n!\ninterface Port-channel11\n description to PE (LACP)\n no ip address\n no negotiation auto\n!\ninterface Port-channel11.130\n encapsulation dot1Q 130\n ip vrf forwarding MOB-A\n ip address 10.100.1.1 255.255.255.254\n!\ninterface Port-channel11.131\n encapsulation dot1Q 131\n ip vrf forwarding MOB-A\n ip address 10.100.1.3 255.255.255.254\n!\ninterface Port-channel11.140\n encapsulation dot1Q 140\n ip vrf forwarding MOB-B\n ip address 10.100.1.5 255.255.255.254\n!\ninterface Port-channel11.141\n encapsulation dot1Q 141\n ip vrf forwarding MOB-B\n ip address 10.100.1.7 255.255.255.254\n!\ninterface Port-channel11.170\n encapsulation dot1Q 170\n ip vrf forwarding TLM\n ip address 10.100.1.9 255.255.255.254\n!\ninterface GigabitEthernet1\n no shutdown\n description OOB\n ip address 10.250.0.14 255.255.255.0\n negotiation auto\n!\ninterface GigabitEthernet2\n no shutdown\n no ip address\n negotiation auto\n channel-group 11 mode active\n!\ninterface GigabitEthernet3\n no shutdown\n no ip address\n negotiation auto\n channel-group 11 mode active\n!\nip forward-protocol nd\nip forward-protocol udp\n!\nno ip http server\nip http secure-server\nip ssh bulk-mode 131072\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n stopbits 1\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n login local\n transport input ssh\n!\n!\n!\n!\n!\n!\nevent manager applet GENKEYS authorization bypass\n event timer countdown name GK time 45\n action 1.0 cli command \"enable\"\n action 2.0 cli command \"show crypto key mypubkey rsa\"\n action 3.0 regexp \"Key name\" \"$_cli_result\"\n action 4.0 if $_regexp_result eq \"0\"\n action 5.0  cli command \"configure terminal\"\n action 6.0  cli command \"crypto key generate rsa modulus 2048\"\n action 7.0  cli command \"end\"\n action 8.0 end\n!\nclock timezone UTC 0 0\nntp server 10.250.0.11\nbanner motd #\n==============================================================\n CGN-A1  |  Site A  |  Catalyst 8000V 17.16.01a\n Role: Site A CGN: NAT44 (VRF-lite, CE of PE-A)\n Data links:\n   GigabitEthernet2       -> PE-A GigabitEthernet0/0/0/1\n   GigabitEthernet3       -> PE-A GigabitEthernet0/0/0/2\n   OOB 10.250.0.14/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nend"
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n4
+  image_definition: cat8000v-17-16-01a
+  label: CGN-A1
+  node_definition: cat8000v
+  parameters: {}
+  ram: null
+  tags:
+  - CGN
+  - C8000V
+  - SITE-A
+  x: -300
+  y: 500
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: GigabitEthernet1
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: GigabitEthernet2
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: GigabitEthernet3
+    mac_address: null
+    type: physical
+    slot: 2
+- boot_disk_size: null
+  configuration:
+  - name: iosxe_config.txt
+    content: "Building configuration...\n\nCurrent configuration : 4807 bytes\n!\n! Last configuration change at 07:19:18 UTC Sat Nov 14 2026\n!\nversion 17.16\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nplatform qfp utilization monitor load 80\nplatform sslvpn use-pd\nplatform console serial\n!\nhostname CGN-B1\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno logging console\nno aaa new-model\n!\n!\n!\n!\n!\n!\nip vrf MOB-A\n!\nip vrf MOB-B\n!\nip vrf TLM\n!\n!\n!\n!\n!\n!\n!\nno ip domain lookup\nip domain name lab.local\n!\n!\n!\nlogin on-success log\n!\n!\nsubscriber templating\n!\n!\n!\ncrypto pki trustpoint SLA-TrustPoint\n enrollment pkcs12\n revocation-check crl\n hash sha512\n!\n!\ncrypto pki certificate chain SLA-TrustPoint\n certificate ca 01\n  30820321 30820209 A0030201 02020101 300D0609 2A864886 F70D0101 0B050030\n  32310E30 0C060355 040A1305 43697363 6F312030 1E060355 04031317 43697363\n  6F204C69 63656E73 696E6720 526F6F74 20434130 1E170D31 33303533 30313934\n  3834375A 170D3338 30353330 31393438 34375A30 32310E30 0C060355 040A1305\n  43697363 6F312030 1E060355 04031317 43697363 6F204C69 63656E73 696E6720\n  526F6F74 20434130 82012230 0D06092A 864886F7 0D010101 05000382 010F0030\n  82010A02 82010100 A6BCBD96 131E05F7 145EA72C 2CD686E6 17222EA1 F1EFF64D\n  CBB4C798 212AA147 C655D8D7 9471380D 8711441E 1AAF071A 9CAE6388 8A38E520\n  1C394D78 462EF239 C659F715 B98C0A59 5BBB5CBD 0CFEBEA3 700A8BF7 D8F256EE\n  4AA4E80D DB6FD1C9 60B1FD18 FFC69C96 6FA68957 A2617DE7 104FDC5F EA2956AC\n  7390A3EB 2B5436AD C847A2C5 DAB553EB 69A9A535 58E9F3E3 C0BD23CF 58BD7188\n  68E69491 20F320E7 948E71D7 AE3BCC84 F10684C7 4BC8E00F 539BA42B 42C68BB7\n  C7479096 B4CB2D62 EA2F505D C7B062A4 6811D95B E8250FC4 5D5D5FB8 8F27D191\n  C55F0D76 61F9A4CD 3D992327 A8BB03BD 4E6D7069 7CBADF8B DF5F4368 95135E44\n  DFC7C6CF 04DD7FD1 02030100 01A34230 40300E06 03551D0F 0101FF04 04030201\n  06300F06 03551D13 0101FF04 05300301 01FF301D 0603551D 0E041604 1449DC85\n  4B3D31E5 1B3E6A17 606AF333 3D3B4C73 E8300D06 092A8648 86F70D01 010B0500\n  03820101 00507F24 D3932A66 86025D9F E838AE5C 6D4DF6B0 49631C78 240DA905\n  604EDCDE FF4FED2B 77FC460E CD636FDB DD44681E 3A5673AB 9093D3B1 6C9E3D8B\n  D98987BF E40CBD9E 1AECA0C2 2189BB5C 8FA85686 CD98B646 5575B146 8DFC66A8\n  467A3DF4 4D565700 6ADF0F0D CF835015 3C04FF7C 21E878AC 11BA9CD2 55A9232C\n  7CA7B7E6 C1AF74F6 152E99B7 B1FCF9BB E973DE7F 5BDDEB86 C71E3B49 1765308B\n  5FB0DA06 B92AFE7F 494E8A9E 07B85737 F3A58BE1 1A48A229 C37C1E69 39F08678\n  80DDCD16 D6BACECA EEBC7CF9 8428787B 35202CDC 60E4616A B623CDBD 230E3AFB\n  418616A9 4093E049 4D10AB75 27E86F73 932E35B5 8862FDAE 0275156F 719BB2F0\n  D697DF7F 28\n  \tquit\n!\n!\nlicense udi pid C8000V sn 9RTZ9QD0CM3\nmemory free low-watermark processor 165529\ndiagnostic bootup level minimal\n!\n!\n!\nusername cisco privilege 15 secret 9 $9$ujcNLWyivd/fB.$97NLcaOB3Tktj/.V9qsv8b8NwaGNuOuRD6k/ItkS9Dc\nusername admin privilege 15 secret 9 $9$aiYIu380AukJ.k$w0EKR3VRwv5nKTpXVddCrZfkT5t8mrQdQNxKGAle10c\n!\nredundancy\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface Loopback0\n ip address 10.255.0.22 255.255.255.255\n!\ninterface Loopback2\n ip vrf forwarding TLM\n ip address 10.200.1.22 255.255.255.255\n!\ninterface Port-channel11\n description to PE (LACP)\n no ip address\n no negotiation auto\n!\ninterface Port-channel11.130\n encapsulation dot1Q 130\n ip vrf forwarding MOB-A\n ip address 10.100.2.1 255.255.255.254\n!\ninterface Port-channel11.131\n encapsulation dot1Q 131\n ip vrf forwarding MOB-A\n ip address 10.100.2.3 255.255.255.254\n!\ninterface Port-channel11.140\n encapsulation dot1Q 140\n ip vrf forwarding MOB-B\n ip address 10.100.2.5 255.255.255.254\n!\ninterface Port-channel11.141\n encapsulation dot1Q 141\n ip vrf forwarding MOB-B\n ip address 10.100.2.7 255.255.255.254\n!\ninterface Port-channel11.170\n encapsulation dot1Q 170\n ip vrf forwarding TLM\n ip address 10.100.2.9 255.255.255.254\n!\ninterface GigabitEthernet1\n no shutdown\n description OOB\n ip address 10.250.0.15 255.255.255.0\n negotiation auto\n!\ninterface GigabitEthernet2\n no shutdown\n no ip address\n negotiation auto\n channel-group 11 mode active\n!\ninterface GigabitEthernet3\n no shutdown\n no ip address\n negotiation auto\n channel-group 11 mode active\n!\nip forward-protocol nd\nip forward-protocol udp\n!\nno ip http server\nip http secure-server\nip ssh bulk-mode 131072\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n stopbits 1\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n login local\n transport input ssh\n!\n!\n!\n!\n!\n!\nevent manager applet GENKEYS authorization bypass\n event timer countdown name GK time 45\n action 1.0 cli command \"enable\"\n action 2.0 cli command \"show crypto key mypubkey rsa\"\n action 3.0 regexp \"Key name\" \"$_cli_result\"\n action 4.0 if $_regexp_result eq \"0\"\n action 5.0  cli command \"configure terminal\"\n action 6.0  cli command \"crypto key generate rsa modulus 2048\"\n action 7.0  cli command \"end\"\n action 8.0 end\n!\nclock timezone UTC 0 0\nntp server 10.250.0.11\nbanner motd #\n==============================================================\n CGN-B1  |  Site B  |  Catalyst 8000V 17.16.01a\n Role: Site B CGN: NAT44 (VRF-lite, CE of PE-B)\n Data links:\n   GigabitEthernet2       -> PE-B GigabitEthernet0/0/0/1\n   GigabitEthernet3       -> PE-B GigabitEthernet0/0/0/2\n   OOB 10.250.0.15/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nend"
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n5
+  image_definition: cat8000v-17-16-01a
+  label: CGN-B1
+  node_definition: cat8000v
+  parameters: {}
+  ram: null
+  tags:
+  - CGN
+  - C8000V
+  - SITE-B
+  x: 300
+  y: 500
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: GigabitEthernet1
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: GigabitEthernet2
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: GigabitEthernet3
+    mac_address: null
+    type: physical
+    slot: 2
+- boot_disk_size: null
+  configuration:
+  - name: node.cfg
+    content: 'hostname SUB
+
+      sh -c ''echo PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIFNVQiAgfCAgQWNjZXNzICB8ICBBbHBpbmUgMy4yMQogUm9sZTogU3Vic2NyaWJlcnM6IGFsaWFzZXMgaW4gVkxBTiAxMzAgKE1PQi1BKSBhbmQgMTQwIChNT0ItQikgYW5kIHRyYWZmaWMgZ2VuZXJhdG9yCiBEYXRhIGxpbmtzOgogICBldGgwICAgICAgICAgICAgICAgICAgIC0+IFBFLUFDQyBFdGhlcm5ldDAvMQogICBPT0IgMTAuMjUwLjAuMTYvMjQgKG1hbmFnZW1lbnQsIGdsb2JhbCB0YWJsZSkKIFVzZXJzOiBjaXNjby9jaXNjbyBvciBhZG1pbi9DMXNjbzEyMzQ1CiBWZXJpZnkgdGhlIGxhYjogb24gQ09MTEVDVE9SIHJ1biAgbGFiY2hlY2sgPHN0YWdlIDEtND4KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0K | base64 -d > /etc/motd && chmod 644 /etc/motd''
+
+      ip addr add 10.250.0.16/24 dev eth1
+
+      ip link set eth1 up
+
+      ntpd -p 10.250.0.11
+
+
+      # L1: VLAN 130 (MOB-A) and 140 (MOB-B) towards PE-ACC
+
+      modprobe 8021q
+
+      ip link set eth0 up
+
+      ip link add link eth0 name eth0.130 type vlan id 130
+
+      ip link add link eth0 name eth0.140 type vlan id 140
+
+      ip addr add 100.64.0.2/24 dev eth0.130
+
+      ip addr add 100.64.1.2/24 dev eth0.140
+
+      ip link set eth0.130 up
+
+      ip link set eth0.140 up'
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n6
+  image_definition: alpine-base-3-21-3
+  label: SUB
+  node_definition: alpine
+  parameters: {}
+  ram: null
+  tags:
+  - HOST
+  - ALPINE
+  - ACCESS
+  x: -360
+  y: -240
+  interfaces:
+  - id: i0
+    label: eth0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i1
+    label: eth1
+    mac_address: null
+    type: physical
+    slot: 1
+- boot_disk_size: null
+  configuration:
+  - name: node.cfg
+    content: 'hostname INET-SRV
+
+      sh -c ''echo PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIElORVQtU1JWICB8ICBBY2Nlc3MgIHwgIEFscGluZSAzLjIxCiBSb2xlOiBTaW11bGF0ZWQgSW50ZXJuZXQgc2VydmVyICgxOTIuMC4yLjEwKTogL2lwIHJldHVybnMgdGhlIElQIGl0IHNlZXMKIERhdGEgbGlua3M6CiAgIGV0aDAgICAgICAgICAgICAgICAgICAgLT4gUEUtQUNDIEV0aGVybmV0MC8yCiAgIE9PQiAxMC4yNTAuMC4xNy8yNCAobWFuYWdlbWVudCwgZ2xvYmFsIHRhYmxlKQogVXNlcnM6IGNpc2NvL2Npc2NvIG9yIGFkbWluL0Mxc2NvMTIzNDUKIFZlcmlmeSB0aGUgbGFiOiBvbiBDT0xMRUNUT1IgcnVuICBsYWJjaGVjayA8c3RhZ2UgMS00Pgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQo= | base64 -d > /etc/motd && chmod 644 /etc/motd''
+
+      ip addr add 10.250.0.17/24 dev eth1
+
+      ip link set eth1 up
+
+      ntpd -p 10.250.0.11
+
+
+      # L1: link towards PE-ACC (VRF INET)
+
+      ip addr add 192.0.2.10/24 dev eth0
+
+      ip link set eth0 up'
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n7
+  image_definition: alpine-base-3-21-3
+  label: INET-SRV
+  node_definition: alpine
+  parameters: {}
+  ram: null
+  tags:
+  - HOST
+  - ALPINE
+  - ACCESS
+  x: 0
+  y: -520
+  interfaces:
+  - id: i0
+    label: eth0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i1
+    label: eth1
+    mac_address: null
+    type: physical
+    slot: 1
+- boot_disk_size: null
+  configuration:
+  - name: user-data
+    content: "#cloud-config\nhostname: COLLECTOR\nmanage_etc_hosts: True\nsystem_info:\n  default_user:\n    name: cisco\npassword: cisco\nchpasswd: { expire: False }\nssh_pwauth: True\nwrite_files:\n  - path: /etc/motd\n    encoding: b64\n    content: PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIENPTExFQ1RPUiAgfCAgQWNjZXNzICB8ICBVYnVudHUgMjQuMDQKIFJvbGU6IE9PQiBqdW1wIGhvc3QsIHRlbGVtZXRyeSBjb2xsZWN0b3IgYW5kIHRoZSBsYWJjaGVjayBjb21tYW5kCiBEYXRhIGxpbmtzOgogICBlbnMyICAgICAgICAgICAgICAgICAgIC0+IFBFLUFDQyBFdGhlcm5ldDAvMwogICBPT0IgMTAuMjUwLjAuMTAvMjQgKG1hbmFnZW1lbnQsIGdsb2JhbCB0YWJsZSkKIFVzZXJzOiBjaXNjby9jaXNjbyBvciBhZG1pbi9DMXNjbzEyMzQ1CiBWZXJpZnkgdGhlIGxhYjogb24gQ09MTEVDVE9SIHJ1biAgbGFiY2hlY2sgPHN0YWdlIDEtND4KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0K\n  - path: /etc/systemd/timesyncd.conf.d/lab.conf\n    encoding: b64\n    content: W1RpbWVdCk5UUD0xMC4yNTAuMC4xMQo=\n  - path: /usr/local/bin/labcheck\n    permissions: '0755'\n    encoding: b64\n    content: IyEvYmluL2Jhc2gKIyBsYWJjaGVjayA8MXwyfDN8ND4gIC0gQ2hlY2tzIHRoZSBsYWIgc3RhdGUgdXAgdG8gdGhlIGdpdmVuIHN0YWdlIChmcm9tIENPTExFQ1RPUiwgb3ZlciB0aGUgT09CIG5ldHdvcmspLgojICAgUzEgdG9wb2xvZ3kgIFMyIGNvbm5lY3Rpdml0eSAgUzMgcm91dGluZyAgUzQgQ0dOIGFuZCBmYWlsb3ZlciAgICAgIEVhY2ggbGluZTogT0sgKGdyZWVuKSBvciBGQUlMIChyZWQpLgpTVEFHRT0kezE6LX0KY2FzZSAiJFNUQUdFIiBpbiAxfDJ8M3w0KSA7OyAqKSBlY2hvICJVc2FnZTogbGFiY2hlY2sgPDF8MnwzfDQ+ICAgKDEgdG9wb2xvZ3ksIDIgY29ubmVjdGl2aXR5LCAzIHJvdXRpbmcsIDQgQ0dOIGFuZCBmYWlsb3ZlcikiOyBleGl0IDI7OyBlc2FjCkc9JCdcZVszMm0nOyBSPSQnXGVbMzFtJzsgWT0kJ1xlWzMzbSc7IEI9JCdcZVsxbSc7IE49JCdcZVswbScKZGVjbGFyZSAtQSBJUD0oW0NPUkVdPTEwLjI1MC4wLjExIFtQRS1BXT0xMC4yNTAuMC4xMiBbUEUtQl09MTAuMjUwLjAuMTMgW0NHTi1BMV09MTAuMjUwLjAuMTQgW0NHTi1CMV09MTAuMjUwLjAuMTUgW1NVQl09MTAuMjUwLjAuMTYgW0lORVQtU1JWXT0xMC4yNTAuMC4xNyBbUEUtQUNDXT0xMC4yNTAuMC4xOCkKcHJpbnRmICcjIS9iaW4vc2hcbmVjaG8gY2lzY29cbicgPiAvdG1wLy5sYWJwYXNzOyBjaG1vZCA3MDAgL3RtcC8ubGFicGFzcwpleHBvcnQgU1NIX0FTS1BBU1M9L3RtcC8ubGFicGFzcyBTU0hfQVNLUEFTU19SRVFVSVJFPWZvcmNlIERJU1BMQVk9bm9uZQpPUFRTPSItbyBTdHJpY3RIb3N0S2V5Q2hlY2tpbmc9bm8gLW8gVXNlcktub3duSG9zdHNGaWxlPS9kZXYvbnVsbCAtbyBMb2dMZXZlbD1FUlJPUiAtbyBDb25uZWN0VGltZW91dD04IC1vIFB1YmtleUF1dGhlbnRpY2F0aW9uPW5vIgpkZXYoKSB7ICAjIHVuYSBzZXNpb24gU1NIIHBvciBjb21hbmRvOyByZWludGVudGEgc2kgZWwgZXF1aXBvIHJlY2hhemEgbyBjb3J0YSBsYSBjb25leGlvbiAoSU9TL1hSIGxpbWl0YW4gc2VzaW9uZXMgcmFwaWRhcykKICBsb2NhbCBuPSQxOyBzaGlmdDsgbG9jYWwgbyBpCiAgZm9yIGkgaW4gMSAyIDM7IGRvCiAgICAjIHN0ZGluIGFiaWVydG8gKGZkIDkpOiBJT1MgY29ydGEgZWwgY29tYW5kbyBzaSByZWNpYmUgRU9GIGFudGVzIGRlIHRlcm1pbmFyIChwLiBlai4gdW4gcGluZykKICAgIG89JChzc2ggJE9QVFMgY2lzY29AJHtJUFskbl19ICIkKiIgMj4mMSA8JjkgfCB0ciAtZCAnXHInIHwgc2VkIC1FICdzL0Nvbm5lY3Rpb24gdG8gW14gXSsgY2xvc2VkIGJ5IHJlbW90ZSBob3N0XC4vLycpCiAgICBpZiAhIGdyZXAgLUVxICdrZXhfZXhjaGFuZ2VfaWRlbnRpZmljYXRpb258Q29ubmVjdGlvbiByZXNldHxDb25uZWN0aW9uIHJlZnVzZWR8dGltZWQgb3V0JyA8PDwiJG8iICYmIFsgLW4gIiRvIiBdOyB0aGVuIGJyZWFrOyBmaQogICAgc2xlZXAgMgogIGRvbmUKICBzbGVlcCAwLjU7IHByaW50ZiAnJXNcbicgIiRvIgp9CnBuZygpIHsgICMgcGluZyBkZXNkZSB1biBlcXVpcG87IHJlaW50ZW50YSBzaSBsYSBzZXNpb24gc2UgY29ydGEuIExhIDFhIHJlc3B1ZXN0YSBwdWVkZSBwZXJkZXJzZSBwb3IgQVJQOiBzZSBhY2VwdGEgPj0gODAgJQogIGxvY2FsIG49JDEgZD0kMiByPXJlcGVhdCBvIGk7IGNhc2UgJG4gaW4gUEUtQXxQRS1CKSByPWNvdW50OzsgZXNhYwogIGZvciBpIGluIDEgMiAzOyBkbyBvPSQoZGV2ICRuICJwaW5nICRkICRyIDUiKTsgZ3JlcCAtcSAiU3VjY2VzcyByYXRlIiA8PDwiJG8iICYmIGJyZWFrOyBzbGVlcCAyOyBkb25lCiAgcHJpbnRmICclc1xuJyAiJG8iCn0KbXVsdGkoKSB7IGxvY2FsIG49JDE7IHNoaWZ0OyBsb2NhbCBjOyBmb3IgYyBpbiAiJEAiOyBkbyBkZXYgJG4gIiRjIjsgZG9uZTsgfSAgIyBJT1MvWFIgbm8gZW5jYWRlbmFuIGNvbWFuZG9zIGNvbiA7CmV4ZWMgOTwgPChleGVjIHRhaWwgLWYgL2Rldi9udWxsKTsgVFA9JCE7IHRyYXAgJ2tpbGwgJFRQIDI+L2Rldi9udWxsJyBFWElUClBBU1M9MDsgRkFJTD0wCm9rKCkgIHsgUEFTUz0kKChQQVNTKzEpKTsgcHJpbnRmICcgICVzWyBPSyBdJXMgJXNcbicgIiRHIiAiJE4iICIkMSI7IH0Ka28oKSAgeyBGQUlMPSQoKEZBSUwrMSkpOyBwcmludGYgJyAgJXNbRkFJTF0lcyAlc1xuJyAiJFIiICIkTiIgIiQxIjsgWyAtbiAiJExBQkNIRUNLX0RFQlVHIiBdICYmIHByaW50ZiAnJXNcbicgIiRMQVNUIiB8IHRhaWwgLW4gNCB8IHNlZCAncy9eLyAgICAgICAgIHwgLyc7IH0Kd2FybigpeyBwcmludGYgJyAgJXNbV0FSTl0lcyAlc1xuJyAiJFkiICIkTiIgIiQxIjsgfQpjaGsoKSB7IGxvY2FsIGRlc2M9JDEgb3V0PSQyIHBhdD0kMzsgTEFTVD0kb3V0OyBpZiBncmVwIC1FcSAiJHBhdCIgPDw8IiRvdXQiOyB0aGVuIG9rICIkZGVzYyI7IGVsc2Uga28gIiRkZXNjIjsgZmk7IH0KY250KCkgeyBsb2NhbCBkZXNjPSQxIG91dD0kMiBwYXQ9JDMgd2FudD0kNCBuOyBMQVNUPSRvdXQ7IG49JChncmVwIC1FbyAiJHBhdCIgPDw8IiRvdXQiIHwgd2MgLWwpOyBpZiBbICIkbiIgLWdlICIkd2FudCIgXTsgdGhlbiBvayAiJGRlc2MgKCRuKSI7IGVsc2Uga28gIiRkZXNjIChmb3VuZCAkbiwgZXhwZWN0ZWQgPj0gJHdhbnQpIjsgZmk7IH0KdGl0bGUoKSB7IHByaW50ZiAnXG4lcz09ICVzID09JXNcbicgIiRCIiAiJDEiICIkTiI7IH0KcGluZzEwMD0nU3VjY2VzcyByYXRlIGlzICgxMDB8ODApIHBlcmNlbnQnCgp0aXRsZSAiU3RhZ2UgUzEgLSBUb3BvbG9neSAoTDApOiBPT0IgYWNjZXNzIGFuZCBiYXNlIgpmb3IgbiBpbiBDT1JFIFBFLUFDQyBQRS1BIFBFLUIgQ0dOLUExIENHTi1CMSBTVUIgSU5FVC1TUlY7IGRvCiAgY2FzZSAkbiBpbiBTVUJ8SU5FVC1TUlYpIG89JChkZXYgJG4gZGF0ZSk7OyAqKSBvPSQoZGV2ICRuICJzaG93IGNsb2NrIik7OyBlc2FjCiAgY2hrICJPT0IgU1NIIHRvICRuICgke0lQWyRuXX0pIiAiJG8iICcyMFswLTldWzAtOV18VVRDJwpkb25lCmZvciBuIGluIENPUkUgUEUtQUNDIFBFLUEgUEUtQiBDR04tQTEgQ0dOLUIxOyBkbwogIG89JChkZXYgJG4gInNob3cgbnRwIHN0YXR1cyIpCiAgaWYgZ3JlcCAtRXEgIkNsb2NrIGlzIHN5bmNocm9uaXplZCIgPDw8IiRvIjsgdGhlbiBvayAiTlRQIHN5bmNocm9uaXplZCBvbiAkbiI7IGVsc2Ugd2FybiAiTlRQIG5vdCBzeW5jaHJvbml6ZWQgeWV0IG9uICRuIChpdCBjYW4gdGFrZSBhIGZldyBtaW51dGVzIGFmdGVyIGJvb3QpIjsgZmkKZG9uZQpbICIkU1RBR0UiIC1sdCAyIF0gJiYgeyBwcmludGYgJ1xuJXNSZXN1bHQ6ICVkIE9LLCAlZCBGQUlMJXNcbicgIiRCIiAkUEFTUyAkRkFJTCAiJE4iOyBbICRGQUlMIC1lcSAwIF07IGV4aXQgJD87IH0KCnRpdGxlICJTdGFnZSBTMiAtIENvbm5lY3Rpdml0eSAoTDEpOiBsaW5rcywgYnVuZGxlLCBWUkYiCm89JChwbmcgQ09SRSAxMC4xMDAuMTAuMTsgcG5nIENPUkUgMTAuMTAwLjEwLjM7IHBuZyBDT1JFIDEwLjEwMC4xMC41KTsgY250ICJDT1JFIHJlYWNoZXMgUEUtQSwgUEUtQiBhbmQgUEUtQUNDICgvMzEgbGlua3MpIiAiJG8iICIkcGluZzEwMCIgMwpmb3IgcyBpbiBBIEI7IGRvCiAgcGU9UEUtJHM7IGNnPUNHTi0ke3N9MQogIG89JChkZXYgJHBlICJzaG93IGJ1bmRsZSBidW5kbGUtZXRoZXIgMTEiKTsgY2hrICIkcGUgQnVuZGxlLUV0aGVyMTEgd2l0aCAyIGFjdGl2ZSBtZW1iZXJzIiAiJG8iICdMb2NhbCBsaW5rcy4qOiAqMiAqLyAqMCAqLyAqMicKICBvPSQoZGV2ICRjZyAic2hvdyBldGhlcmNoYW5uZWwgc3VtbWFyeSIpOyBjbnQgIiRjZyBQb3J0LWNoYW5uZWwxMSB3aXRoIDIgbWVtYmVycyAoYm5kbCkiICIkbyIgJ0dpWzIzXVwoYm5kbFwpJyAyCiAgYj0kKFsgJHMgPSBBIF0gJiYgZWNobyAxIHx8IGVjaG8gMikKICBmb3IgdiBpbiAiTU9CLUEgMTAuMTAwLiRiLjEiICJNT0ItQiAxMC4xMDAuJGIuNSIgIklORVQgMTAuMTAwLiRiLjMiICJUTE0gMTAuMTAwLiRiLjkiOyBkbwogICAgc2V0IC0tICR2OyBvPSQocG5nICRwZSAidnJmICQxICQyIik7IGNoayAiJHBlIC0+ICRjZyBpbiBWUkYgJDEgKCQyKSIgIiRvIiAiJHBpbmcxMDAiCiAgZG9uZQpkb25lCm89JChwbmcgUEUtQUNDICJ2cmYgTU9CLUEgMTAwLjY0LjAuMiI7IHBuZyBQRS1BQ0MgInZyZiBNT0ItQiAxMDAuNjQuMS4yIjsgcG5nIFBFLUFDQyAidnJmIElORVQgMTkyLjAuMi4xMCI7IHBuZyBQRS1BQ0MgInZyZiBUTE0gMTAuMjAwLjAuMiIpOyBjbnQgIlBFLUFDQyByZWFjaGVzIFNVQiAoTU9CLUEgYW5kIE1PQi1CKSwgSU5FVC1TUlYgYW5kIENPTExFQ1RPUiIgIiRvIiAiJHBpbmcxMDAiIDQKWyAiJFNUQUdFIiAtbHQgMyBdICYmIHsgcHJpbnRmICdcbiVzUmVzdWx0OiAlZCBPSywgJWQgRkFJTCVzXG4nICIkQiIgJFBBU1MgJEZBSUwgIiROIjsgWyAkRkFJTCAtZXEgMCBdOyBleGl0ICQ/OyB9Cgp0aXRsZSAiU3RhZ2UgUzMgLSBSb3V0aW5nIChMMik6IElHUCwgTERQLCBCR1AgVlBOdjQsIEVDTVAsIFRMTSIKbz0kKGRldiBDT1JFICJzaG93IGlwIG9zcGYgbmVpZ2hib3IiKTsgY250ICJPU1BGOiAzIEZVTEwgbmVpZ2hib3JzIG9uIENPUkUiICIkbyIgJ0ZVTEwnIDMKbz0kKGRldiBDT1JFICJzaG93IGJmZCBuZWlnaGJvcnMiKTsgY250ICJCRkQ6IDMgc2Vzc2lvbnMgVXAiICIkbyIgJ1VwICtVcCcgMwpvPSQoZGV2IENPUkUgInNob3cgbXBscyBsZHAgbmVpZ2hib3IgfCBpbmNsdWRlIFBlZXIgTERQIik7IGNudCAiTERQOiAzIG5laWdoYm9ycyIgIiRvIiAnUGVlciBMRFAnIDMKbz0kKGRldiBDT1JFICJzaG93IGJncCB2cG52NCB1bmljYXN0IGFsbCBzdW1tYXJ5Iik7IGNudCAiaUJHUCBWUE52NDogMyBSUiBjbGllbnRzIHdpdGggcHJlZml4ZXMiICIkbyIgJ14xMFwuMjU1XC4wXC5bMC05XSsgLiogWzEtOV1bMC05XSokJyAzCmZvciB2IGluIE1PQi1BIE1PQi1COyBkbwogIG89JChkZXYgUEUtQUNDICJzaG93IGlwIHJvdXRlIHZyZiAkdiAwLjAuMC4wIik7IGlmIGdyZXAgLXEgIjEwLjI1NS4wLjExIiA8PDwiJG8iICYmIGdyZXAgLXEgIjEwLjI1NS4wLjEyIiA8PDwiJG8iOyB0aGVuIG9rICJFQ01QIGluICR2OiBkZWZhdWx0IHZpYSBQRS1BIGFuZCBQRS1CIjsgZWxzZSBrbyAiRUNNUCBpbiAkdjogZGVmYXVsdCB2aWEgUEUtQSBhbmQgUEUtQiI7IGZpCmRvbmUKbz0kKHBuZyBDR04tQTEgInZyZiBNT0ItQSAxOTIuMC4yLjEwIHNvdXJjZSBQb3J0LWNoYW5uZWwxMS4xMzEiKTsgY2hrICJDR04tQTEgcmVhY2hlcyBJTkVULVNSViAobm8gTkFUKSIgIiRvIiAiJHBpbmcxMDAiCm89JChwbmcgQ0dOLUIxICJ2cmYgTU9CLUEgMTkyLjAuMi4xMCBzb3VyY2UgUG9ydC1jaGFubmVsMTEuMTMxIik7IGNoayAiQ0dOLUIxIHJlYWNoZXMgSU5FVC1TUlYgKG5vIE5BVCkiICIkbyIgIiRwaW5nMTAwIgpmb3IgaXAgaW4gMTAuMjAwLjEuMiAxMC4yMDAuMS4xMSAxMC4yMDAuMS4xMiAxMC4yMDAuMS4yMSAxMC4yMDAuMS4yMjsgZG8KICBpZiBwaW5nIC1jIDIgLVcgMiAkaXAgPi9kZXYvbnVsbCAyPiYxOyB0aGVuIG9rICJUTE06IENPTExFQ1RPUiByZWFjaGVzIExvMiAkaXAiOyBlbHNlIGtvICJUTE06IENPTExFQ1RPUiByZWFjaGVzIExvMiAkaXAiOyBmaQpkb25lClsgIiRTVEFHRSIgLWx0IDQgXSAmJiB7IHByaW50ZiAnXG4lc1Jlc3VsdDogJWQgT0ssICVkIEZBSUwlc1xuJyAiJEIiICRQQVNTICRGQUlMICIkTiI7IFsgJEZBSUwgLWVxIDAgXTsgZXhpdCAkPzsgfQoKdGl0bGUgIlN0YWdlIFM0IC0gQ0dOIGFuZCBmYWlsb3ZlciAoTDMpOiBOQVQ0NCBhbmQgbG9hZCBzaGFyaW5nIGJldHdlZW4gc2l0ZXMiCm89JChkZXYgU1VCICJub3JtYWwuc2giKQpjbnQgIjM2IFNVQiBhbGlhc2VzIGdldCBhIHB1YmxpYyBJUCBmcm9tIGEgcG9vbCIgIiRvIiAnXjEwMFwuNjRcLlswMV1cLlswLTldKyAyMDNcLjBcLjExM1wuWzAtOV0rJCcgMzYKc2l0ZUE9JChhd2sgJ3tzcGxpdCgkMixwLCIuIik7IGlmICgoJDEgfiAvXjEwMFwuNjRcLjBcLi8gJiYgcFs0XTw9MykgfHwgKCQxIH4gL14xMDBcLjY0XC4xXC4vICYmIHBbNF0+PTQgJiYgcFs0XTw9NykpIG4rK30gRU5Ee3ByaW50IG4rMH0nIDw8PCIkbyIpCnNpdGVCPSQoYXdrICd7c3BsaXQoJDIscCwiLiIpOyBpZiAoKCQxIH4gL14xMDBcLjY0XC4wXC4vICYmIHBbNF0+PTggJiYgcFs0XTw9MTEpIHx8ICgkMSB+IC9eMTAwXC42NFwuMVwuLyAmJiBwWzRdPj0xMiAmJiBwWzRdPD0xNSkpIG4rK30gRU5Ee3ByaW50IG4rMH0nIDw8PCIkbyIpCmlmIFsgIiRzaXRlQSIgLWd0IDAgXSAmJiBbICIkc2l0ZUIiIC1ndCAwIF07IHRoZW4gb2sgIkVDTVAgbG9hZCBzaGFyaW5nOiAkc2l0ZUEgYWxpYXNlcyBleGl0IHZpYSBTaXRlIEEgYW5kICRzaXRlQiB2aWEgU2l0ZSBCIjsgZWxzZSBrbyAiRUNNUCBsb2FkIHNoYXJpbmc6IFNpdGUgQT0kc2l0ZUEsIFNpdGUgQj0kc2l0ZUIgKGJvdGggZXhwZWN0ZWQgPiAwKSI7IGZpCmZvciBjIGluIENHTi1BMSBDR04tQjE7IGRvIG89JChkZXYgJGMgInNob3cgaXAgbmF0IHN0YXRpc3RpY3MiKTsgY2hrICIkYzogTkFUIGFjdGl2ZSB3aXRoIHBlci1ob3N0IGxpbWl0IDMwMCIgIiRvIiAnQWxsIEhvc3QgTWF4IGFsbG93ZWQ6IDMwMCc7IGRvbmUKcHJpbnRmICdcbiVzUmVzdWx0OiAlZCBPSywgJWQgRkFJTCVzXG4nICIkQiIgJFBBU1MgJEZBSUwgIiROIjsgWyAkRkFJTCAtZXEgMCBdCg==\nruncmd:\n  - systemctl restart systemd-timesyncd"
+  - name: network-config
+    content: "#network-config\nnetwork:\n  version: 2\n  ethernets:\n    ens2:\n      dhcp4: false\n      addresses: [10.200.0.2/30]\n      routes:\n        - to: 10.200.0.0/16\n          via: 10.200.0.1\n    ens3:\n      dhcp4: false\n      addresses: [10.250.0.10/24]\n    ens4:\n      dhcp4: false\n      addresses: [198.18.128.3/18]\n      routes:\n        - to: default\n          via: 198.18.128.1\n      nameservers:\n        addresses: [198.18.128.1, 8.8.8.8]\n"
+  cpu_limit: null
+  cpus: 2
+  data_volume: null
+  hide_links: false
+  id: n8
+  image_definition: ubuntu-24-04-20250503
+  label: COLLECTOR
+  node_definition: ubuntu
+  parameters: {}
+  ram: 6144
+  tags:
+  - UBUNTU
+  - COLLECTOR
+  - ACCESS
+  x: 240
+  y: -240
+  interfaces:
+  - id: i0
+    label: ens2
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i1
+    label: ens3
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i2
+    label: ens4
+    mac_address: null
+    type: physical
+    slot: 2
+- boot_disk_size: null
+  configuration: []
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: true
+  id: n9
+  image_definition: null
+  label: MGMT-SW
+  node_definition: unmanaged_switch
+  parameters: {}
+  ram: null
+  tags: []
+  x: 600
+  y: 0
+  interfaces:
+  - id: i0
+    label: port0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i1
+    label: port1
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i2
+    label: port2
+    mac_address: null
+    type: physical
+    slot: 2
+  - id: i3
+    label: port3
+    mac_address: null
+    type: physical
+    slot: 3
+  - id: i4
+    label: port4
+    mac_address: null
+    type: physical
+    slot: 4
+  - id: i5
+    label: port5
+    mac_address: null
+    type: physical
+    slot: 5
+  - id: i6
+    label: port6
+    mac_address: null
+    type: physical
+    slot: 6
+  - id: i7
+    label: port7
+    mac_address: null
+    type: physical
+    slot: 7
+  - id: i8
+    label: port8
+    mac_address: null
+    type: physical
+    slot: 8
+- boot_disk_size: null
+  configuration:
+  - name: default
+    content: bridge0
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n10
+  image_definition: null
+  label: EXT
+  node_definition: external_connector
+  parameters: {}
+  ram: null
+  tags: []
+  x: 480
+  y: -480
+  interfaces:
+  - id: i0
+    label: port
+    mac_address: null
+    type: physical
+    slot: 0
+links:
+- id: l0
+  n1: n0
+  n2: n2
+  i1: i1
+  i2: i4
+  conditioning: {}
+  label: CORE-Ethernet0/0<->PE-A-GigabitEthernet0/0/0/0
+- id: l1
+  n1: n0
+  n2: n3
+  i1: i2
+  i2: i4
+  conditioning: {}
+  label: CORE-Ethernet0/1<->PE-B-GigabitEthernet0/0/0/0
+- id: l2
+  n1: n0
+  n2: n1
+  i1: i3
+  i2: i1
+  conditioning: {}
+  label: CORE-Ethernet0/2<->PE-ACC-Ethernet0/0
+- id: l3
+  n1: n1
+  n2: n6
+  i1: i2
+  i2: i0
+  conditioning: {}
+  label: PE-ACC-Ethernet0/1<->SUB-eth0
+- id: l4
+  n1: n1
+  n2: n7
+  i1: i3
+  i2: i0
+  conditioning: {}
+  label: PE-ACC-Ethernet0/2<->INET-SRV-eth0
+- id: l5
+  n1: n1
+  n2: n8
+  i1: i4
+  i2: i0
+  conditioning: {}
+  label: PE-ACC-Ethernet0/3<->COLLECTOR-ens2
+- id: l6
+  n1: n2
+  n2: n4
+  i1: i5
+  i2: i2
+  conditioning: {}
+  label: PE-A-GigabitEthernet0/0/0/1<->CGN-A1-GigabitEthernet2
+- id: l7
+  n1: n2
+  n2: n4
+  i1: i6
+  i2: i3
+  conditioning: {}
+  label: PE-A-GigabitEthernet0/0/0/2<->CGN-A1-GigabitEthernet3
+- id: l8
+  n1: n3
+  n2: n5
+  i1: i5
+  i2: i2
+  conditioning: {}
+  label: PE-B-GigabitEthernet0/0/0/1<->CGN-B1-GigabitEthernet2
+- id: l9
+  n1: n3
+  n2: n5
+  i1: i6
+  i2: i3
+  conditioning: {}
+  label: PE-B-GigabitEthernet0/0/0/2<->CGN-B1-GigabitEthernet3
+- id: l10
+  n1: n8
+  n2: n10
+  i1: i2
+  i2: i0
+  conditioning: {}
+  label: COLLECTOR-ens4<->EXT-port
+- id: l11
+  n1: n8
+  n2: n9
+  i1: i1
+  i2: i0
+  conditioning: {}
+  label: COLLECTOR-ens3<->MGMT-SW-port0
+- id: l12
+  n1: n0
+  n2: n9
+  i1: i6
+  i2: i1
+  conditioning: {}
+  label: CORE-Ethernet1/1<->MGMT-SW-port1
+- id: l13
+  n1: n2
+  n2: n9
+  i1: i1
+  i2: i2
+  conditioning: {}
+  label: PE-A-MgmtEth0/RP0/CPU0/0<->MGMT-SW-port2
+- id: l14
+  n1: n3
+  n2: n9
+  i1: i1
+  i2: i3
+  conditioning: {}
+  label: PE-B-MgmtEth0/RP0/CPU0/0<->MGMT-SW-port3
+- id: l15
+  n1: n4
+  n2: n9
+  i1: i1
+  i2: i4
+  conditioning: {}
+  label: CGN-A1-GigabitEthernet1<->MGMT-SW-port4
+- id: l16
+  n1: n5
+  n2: n9
+  i1: i1
+  i2: i5
+  conditioning: {}
+  label: CGN-B1-GigabitEthernet1<->MGMT-SW-port5
+- id: l17
+  n1: n6
+  n2: n9
+  i1: i1
+  i2: i6
+  conditioning: {}
+  label: SUB-eth1<->MGMT-SW-port6
+- id: l18
+  n1: n7
+  n2: n9
+  i1: i1
+  i2: i7
+  conditioning: {}
+  label: INET-SRV-eth1<->MGMT-SW-port7
+- id: l19
+  n1: n1
+  n2: n9
+  i1: i5
+  i2: i8
+  conditioning: {}
+  label: PE-ACC-Ethernet1/0<->MGMT-SW-port8
+lab:
+  description: ''
+  notes: ''
+  title: S2-CONNECTIVITY
+  version: 0.3.0

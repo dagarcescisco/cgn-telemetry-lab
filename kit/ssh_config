@@ -1,0 +1,37 @@
+# OpenSSH configuration for the CGN & Telemetry training lab (alternative to PuTTY).
+# Windows:     copy this file to  %USERPROFILE%\.ssh\config   (merge it if you already have one)
+# macOS/Linux: copy it to ~/.ssh/config and change "NUL" to "/dev/null" below.
+# Then:  ssh collector     ssh pe-a     ssh cgn-a1  ...   (password for every lab device: cisco)
+# The devices are reached THROUGH the COLLECTOR (ProxyJump), so you type the password twice: COLLECTOR, then the device.
+# The lab nodes are rebuilt between days and get new host keys, so host keys are not remembered here.
+
+Host *
+    StrictHostKeyChecking no
+    UserKnownHostsFile NUL
+    LogLevel ERROR
+    ServerAliveInterval 30
+
+Host collector
+    HostName 198.18.128.3
+    User cisco
+
+Host core pe-acc pe-a pe-b cgn-a1 cgn-b1 sub inet-srv
+    User cisco
+    ProxyJump cisco@198.18.128.3
+
+Host core
+    HostName 10.250.0.11
+Host pe-a
+    HostName 10.250.0.12
+Host pe-b
+    HostName 10.250.0.13
+Host cgn-a1
+    HostName 10.250.0.14
+Host cgn-b1
+    HostName 10.250.0.15
+Host sub
+    HostName 10.250.0.16
+Host inet-srv
+    HostName 10.250.0.17
+Host pe-acc
+    HostName 10.250.0.18

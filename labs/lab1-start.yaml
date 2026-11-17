@@ -1,0 +1,1190 @@
+annotations:
+- border_color: '#808080FF'
+  border_radius: 0
+  border_style: ''
+  color: '#CDFFC3'
+  rotation: 0
+  thickness: 1
+  type: rectangle
+  x1: -480.0
+  y1: 160.0
+  x2: 360.0
+  y2: 440.0
+  z_index: 0
+- border_color: '#808080FF'
+  border_radius: 0
+  border_style: ''
+  color: '#CDFFC3'
+  rotation: 0
+  thickness: 1
+  type: rectangle
+  x1: 120.0
+  y1: 160.0
+  x2: 360.0
+  y2: 440.0
+  z_index: 0
+- border_color: '#808080FF'
+  border_style: ''
+  color: '#FC9292'
+  rotation: 0
+  thickness: 1
+  type: ellipse
+  x1: 0.0
+  y1: 20.0
+  x2: 160.0
+  y2: 80.0
+  z_index: 2
+- border_color: '#808080FF'
+  border_radius: 0
+  border_style: ''
+  color: '#9DE0FF'
+  rotation: 0
+  thickness: 1
+  type: rectangle
+  x1: -560.0
+  y1: -320.0
+  x2: 320.0
+  y2: 200.0
+  z_index: 0
+- border_color: '#808080FF'
+  border_radius: 0
+  border_style: ''
+  color: '#CDFFC3'
+  rotation: 0
+  thickness: 1
+  type: rectangle
+  x1: -120.0
+  y1: -320.0
+  x2: 480.0
+  y2: 200.0
+  z_index: 0
+- border_color: '#808080FF'
+  border_radius: 0
+  border_style: ''
+  color: '#9DE0FF'
+  rotation: 0
+  thickness: 1
+  type: rectangle
+  x1: -120.0
+  y1: -560.0
+  x2: 240.0
+  y2: 160.0
+  z_index: 0
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: SITE A
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -440.0
+  y1: 560.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: SITE B
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 160.0
+  y1: 560.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'SUBSCRIBERS
+
+    MOB-A
+
+    MOB-B'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -520.0
+  y1: -200.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: INET
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -80.0
+  y1: -440.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: ACCESS SITE
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 200.0
+  y1: -160.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: true
+  text_content: 'CGN & TELEMETRY TRAINING LAB  |  LAB 1 - CONNECTIVITY (START)  |  AS 65001  |  users: cisco/cisco or admin/C1sco12345'
+  text_font: monospace
+  text_italic: false
+  text_size: 14
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -560.0
+  y1: -640.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'OOB 10.250.0.0/24 (global table)
+
+    .10 COLLECTOR (jump host)  .11 CORE
+
+    .12 PE-A  .13 PE-B  .14 CGN-A1  .15 CGN-B1
+
+    .16 SUB  .17 INET-SRV  .18 PE-ACC
+
+    From COLLECTOR: ssh to all'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 540.0
+  y1: -440.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'PE<->CGN subinterfaces: 130 MOB-A | 131 INET (MOB-A) | 140 MOB-B | 141 INET (MOB-B) | 170 TLM
+
+    Images: XRv9000 25.1.1 (20 GB, ~11 min boot) | C8000V 17.16.01a | IOL 17.16.01a | Ubuntu 24.04 | Alpine 3.21'
+  text_font: monospace
+  text_italic: false
+  text_size: 10
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -560.0
+  y1: 760.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'VLAN / IP (one VRF per service on PE-ACC)
+
+    MOB-A  VLAN 130  100.64.0.0/24
+
+    MOB-B  VLAN 140  100.64.1.0/24
+
+    SUB: .2 in each VLAN, gw .1'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -560.0
+  y1: -80.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: INET 192.0.2.0/24 (INET-SRV .10)
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -560.0
+  y1: -540.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'TELEMETRY (VRF TLM)
+
+    PE-ACC 10.200.0.1/30 <-> COLLECTOR .2
+
+    TLM Lo2: 10.200.1.x (MDT/NetFlow source)
+
+    ens4 -> EXT: Internet (CML NAT)'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 400.0
+  y1: -190.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'CORE: Lo0 10.255.0.1
+
+    /31 links (10.100.10.x):
+
+    PE-A .0 | PE-B .2 | PE-ACC .4'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 190.0
+  y1: -40.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'SITE A  10.100.1.0/24
+
+    PE-A XRv9000 Lo0 .11  (Bundle-Ether11)
+
+    CGN-A1 C8000V Lo0 .21 (Port-channel11)
+
+    LACP 2 x Gi: Gi0/0/0/1-2 <-> Gi2-3'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -480.0
+  y1: 620.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: 'SITE B  10.100.2.0/24
+
+    PE-B XRv9000 Lo0 .12  (Bundle-Ether11)
+
+    CGN-B1 C8000V Lo0 .22 (Port-channel11)
+
+    LACP 2 x Gi: Gi0/0/0/1-2 <-> Gi2-3'
+  text_font: monospace
+  text_italic: false
+  text_size: 12
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: 120.0
+  y1: 620.0
+  z_index: 1
+- border_color: '#00000000'
+  border_style: ''
+  color: '#000000'
+  rotation: 0
+  text_bold: false
+  text_content: "LAB STATE\nLab 1 - CONNECTIVITY (start)\n\nPRECONFIGURED\n- CORE, PE-ACC, PE-B, CGN-B1 and the\n  hosts: addresses, bundle, VRFs\n- Site B is your reference\n\nYOUR TASK (Site A only)\n- PE-A (IOS XR): loopbacks, /31 link,\n  bundle, sub-interfaces, VRFs\n- CGN-A1 (IOS XE): loopbacks,\n  Port-channel, sub-interfaces,\n  VRF-lite\n\nHOW TO CHECK\n- labcheck day1 (start state)\n- labcheck 2 (when you finish)\n- Compare with Site B: same commands,\n  other addresses\n\nVALUE\nYou write the same base on IOS XR and\nIOS XE and see how the syntax differs.\n\nNEXT: Lab 2 Routing, CGN and failover"
+  text_font: monospace
+  text_italic: false
+  text_size: 11
+  text_unit: pt
+  thickness: 1
+  type: text
+  x1: -940.0
+  y1: -560.0
+  z_index: 1
+smart_annotations:
+- tag: ACCESS
+  is_on: false
+  padding: 35
+  label: ACCESS
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#4B4D4F80'
+  border_color: '#00000080'
+  z_index: 5
+- tag: ALPINE
+  is_on: false
+  padding: 35
+  label: ALPINE
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#A4C8E180'
+  border_color: '#00000080'
+  z_index: 12
+- tag: C8000V
+  is_on: false
+  padding: 35
+  label: C8000V
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#D5006D80'
+  border_color: '#00000080'
+  z_index: 10
+- tag: CENTER
+  is_on: false
+  padding: 35
+  label: CENTER
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#FFD10080'
+  border_color: '#00000080'
+  z_index: 2
+- tag: CGN
+  is_on: false
+  padding: 35
+  label: CGN
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#F16A2080'
+  border_color: '#00000080'
+  z_index: 9
+- tag: COLLECTOR
+  is_on: false
+  padding: 35
+  label: COLLECTOR
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#00B14080'
+  border_color: '#00000080'
+  z_index: 13
+- tag: HOST
+  is_on: false
+  padding: 35
+  label: HOST
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#009C8C80'
+  border_color: '#00000080'
+  z_index: 11
+- tag: IOL
+  is_on: false
+  padding: 35
+  label: IOL
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#F8A30080'
+  border_color: '#00000080'
+  z_index: 3
+- tag: P-RR
+  is_on: false
+  padding: 35
+  label: P-RR
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#A7A8AA80'
+  border_color: '#00000080'
+  z_index: 1
+- tag: PE
+  is_on: false
+  padding: 35
+  label: PE
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#A95FBE80'
+  border_color: '#00000080'
+  z_index: 4
+- tag: SITE-A
+  is_on: false
+  padding: 35
+  label: SITE-A
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#C72A2880'
+  border_color: '#00000080'
+  z_index: 6
+- tag: SITE-B
+  is_on: false
+  padding: 35
+  label: SITE-B
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#B7E3D980'
+  border_color: '#00000080'
+  z_index: 8
+- tag: UBUNTU
+  is_on: false
+  padding: 35
+  label: UBUNTU
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#005C9980'
+  border_color: '#00000080'
+  z_index: 14
+- tag: XR
+  is_on: false
+  padding: 35
+  label: XR
+  tag_offset_x: 0
+  tag_offset_y: 0
+  tag_size: 14
+  group_distance: 400
+  thickness: 1
+  border_style: ''
+  fill_color: '#007A3380'
+  border_color: '#00000080'
+  z_index: 7
+nodes:
+- boot_disk_size: null
+  configuration:
+  - name: ios_config.txt
+    content: "hostname CORE\nclock timezone UTC 0 0\nntp master 3\nbanner motd #\n==============================================================\n CORE  |  Center  |  IOL XE 17.16.01a\n Role: Core P + VPNv4 route reflector (no VRFs). Lab NTP server\n Data links:\n   Ethernet0/0            -> PE-A GigabitEthernet0/0/0/0\n   Ethernet0/1            -> PE-B GigabitEthernet0/0/0/0\n   Ethernet0/2            -> PE-ACC Ethernet0/0\n   OOB 10.250.0.11/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nusername cisco privilege 15 secret cisco\nusername admin privilege 15 secret C1sco12345\nno ip domain lookup\nip domain name lab.local\nip ssh version 2\ninterface Ethernet1/1\n description OOB\n ip address 10.250.0.11 255.255.255.0\n no shutdown\nline con 0\n exec-timeout 0 0\n logging synchronous\nline vty 0 4\n login local\n transport input ssh\n exec-timeout 0 0\nevent manager applet GENKEYS authorization bypass\n event timer countdown name GK time 45\n action 1.0 cli command \"enable\"\n action 2.0 cli command \"show crypto key mypubkey rsa\"\n action 3.0 regexp \"Key name\" \"$_cli_result\"\n action 4.0 if $_regexp_result eq \"0\"\n action 5.0  cli command \"configure terminal\"\n action 6.0  cli command \"crypto key generate rsa modulus 2048\"\n action 7.0  cli command \"end\"\n action 8.0 end\ninterface Loopback0\n ip address 10.255.0.1 255.255.255.255\n!\ninterface Ethernet0/0\n description to PE-A\n ip address 10.100.10.0 255.255.255.254\n no shutdown\n!\ninterface Ethernet0/1\n description to PE-B\n ip address 10.100.10.2 255.255.255.254\n no shutdown\n!\ninterface Ethernet0/2\n description to PE-ACC\n ip address 10.100.10.4 255.255.255.254\n no shutdown\n!\nend"
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n0
+  image_definition: iol-xe-17-16-01a
+  label: CORE
+  node_definition: iol-xe
+  parameters: {}
+  ram: null
+  tags:
+  - P-RR
+  - CENTER
+  - IOL
+  x: 0
+  y: 0
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: Ethernet0/0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: Ethernet0/1
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: Ethernet0/2
+    mac_address: null
+    type: physical
+    slot: 2
+  - id: i4
+    label: Ethernet0/3
+    mac_address: null
+    type: physical
+    slot: 3
+  - id: i5
+    label: Ethernet1/0
+    mac_address: null
+    type: physical
+    slot: 4
+  - id: i6
+    label: Ethernet1/1
+    mac_address: null
+    type: physical
+    slot: 5
+- boot_disk_size: null
+  configuration:
+  - name: ios_config.txt
+    content: "hostname PE-ACC\nclock timezone UTC 0 0\nntp server 10.250.0.11\nbanner motd #\n==============================================================\n PE-ACC  |  Access  |  IOL XE 17.16.01a\n Role: Access PE (PC_PE): SUB, INET-SRV and COLLECTOR hang off it\n Data links:\n   Ethernet0/0            -> CORE Ethernet0/2\n   Ethernet0/1            -> SUB eth0\n   Ethernet0/2            -> INET-SRV eth0\n   Ethernet0/3            -> COLLECTOR ens2\n   OOB 10.250.0.18/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nusername cisco privilege 15 secret cisco\nusername admin privilege 15 secret C1sco12345\nno ip domain lookup\nip domain name lab.local\nip ssh version 2\ninterface Ethernet1/0\n description OOB\n ip address 10.250.0.18 255.255.255.0\n no shutdown\nline con 0\n exec-timeout 0 0\n logging synchronous\nline vty 0 4\n login local\n transport input ssh\n exec-timeout 0 0\nevent manager applet GENKEYS authorization bypass\n event timer countdown name GK time 45\n action 1.0 cli command \"enable\"\n action 2.0 cli command \"show crypto key mypubkey rsa\"\n action 3.0 regexp \"Key name\" \"$_cli_result\"\n action 4.0 if $_regexp_result eq \"0\"\n action 5.0  cli command \"configure terminal\"\n action 6.0  cli command \"crypto key generate rsa modulus 2048\"\n action 7.0  cli command \"end\"\n action 8.0 end\nip vrf MOB-A\n rd 10.255.0.2:101\n!\nip vrf MOB-B\n rd 10.255.0.2:102\n!\nip vrf INET\n rd 10.255.0.2:103\n!\nip vrf TLM\n rd 10.255.0.2:104\n!\ninterface Loopback0\n ip address 10.255.0.2 255.255.255.255\n!\ninterface Loopback2\n ip vrf forwarding TLM\n ip address 10.200.1.2 255.255.255.255\n!\ninterface Ethernet0/0\n description to CORE\n ip address 10.100.10.5 255.255.255.254\n no shutdown\n!\ninterface Ethernet0/1\n description to SUB (mobile core)\n no ip address\n no shutdown\n!\ninterface Ethernet0/1.130\n encapsulation dot1Q 130\n ip vrf forwarding MOB-A\n ip address 100.64.0.1 255.255.255.0\n!\ninterface Ethernet0/1.140\n encapsulation dot1Q 140\n ip vrf forwarding MOB-B\n ip address 100.64.1.1 255.255.255.0\n!\ninterface Ethernet0/2\n description to INET-SRV\n ip vrf forwarding INET\n ip address 192.0.2.1 255.255.255.0\n no shutdown\n!\ninterface Ethernet0/3\n description to COLLECTOR (TLM)\n ip vrf forwarding TLM\n ip address 10.200.0.1 255.255.255.252\n no shutdown\n!\nend"
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n1
+  image_definition: iol-xe-17-16-01a
+  label: PE-ACC
+  node_definition: iol-xe
+  parameters: {}
+  ram: null
+  tags:
+  - PE
+  - ACCESS
+  - IOL
+  x: 0
+  y: -240
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: Ethernet0/0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: Ethernet0/1
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: Ethernet0/2
+    mac_address: null
+    type: physical
+    slot: 2
+  - id: i4
+    label: Ethernet0/3
+    mac_address: null
+    type: physical
+    slot: 3
+  - id: i5
+    label: Ethernet1/0
+    mac_address: null
+    type: physical
+    slot: 4
+- boot_disk_size: null
+  configuration:
+  - name: iosxr_config.txt
+    content: "hostname PE-A\nntp\n server 10.250.0.11\n!\nbanner motd #\n==============================================================\n PE-A  |  Site A  |  IOS XRv 9000 25.1.1\n Role: Site A PE: client of the CORE and neighbor of CGN-A1\n Data links:\n   GigabitEthernet0/0/0/0 -> CORE Ethernet0/0\n   GigabitEthernet0/0/0/1 -> CGN-A1 GigabitEthernet2\n   GigabitEthernet0/0/0/2 -> CGN-A1 GigabitEthernet3\n   OOB 10.250.0.12/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nusername cisco\n group root-lr\n group cisco-support\n secret 0 cisco\n!\nusername admin\n group root-lr\n group cisco-support\n secret 0 C1sco12345\n!\nline console\n exec-timeout 0 0\n!\nline default\n exec-timeout 0 0\n transport input ssh\n!\ninterface MgmtEth0/RP0/CPU0/0\n description OOB\n ipv4 address 10.250.0.12 255.255.255.0\n no shutdown\n!\nssh server v2\nssh server vrf default"
+  cpu_limit: null
+  cpus: 4
+  data_volume: null
+  hide_links: false
+  id: n2
+  image_definition: iosxrv9000-25-1-1
+  label: PE-A
+  node_definition: iosxrv9000
+  parameters: {}
+  ram: 20480
+  tags:
+  - PE
+  - SITE-A
+  - XR
+  x: -300
+  y: 250
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: MgmtEth0/RP0/CPU0/0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: donotuse1
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: donotuse2
+    mac_address: null
+    type: physical
+    slot: 2
+  - id: i4
+    label: GigabitEthernet0/0/0/0
+    mac_address: null
+    type: physical
+    slot: 3
+  - id: i5
+    label: GigabitEthernet0/0/0/1
+    mac_address: null
+    type: physical
+    slot: 4
+  - id: i6
+    label: GigabitEthernet0/0/0/2
+    mac_address: null
+    type: physical
+    slot: 5
+- boot_disk_size: null
+  configuration:
+  - name: iosxr_config.txt
+    content: "hostname PE-B\nntp\n server 10.250.0.11\n!\nbanner motd #\n==============================================================\n PE-B  |  Site B  |  IOS XRv 9000 25.1.1\n Role: Site B PE: client of the CORE and neighbor of CGN-B1\n Data links:\n   GigabitEthernet0/0/0/0 -> CORE Ethernet0/1\n   GigabitEthernet0/0/0/1 -> CGN-B1 GigabitEthernet2\n   GigabitEthernet0/0/0/2 -> CGN-B1 GigabitEthernet3\n   OOB 10.250.0.13/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nusername cisco\n group root-lr\n group cisco-support\n secret 0 cisco\n!\nusername admin\n group root-lr\n group cisco-support\n secret 0 C1sco12345\n!\nline console\n exec-timeout 0 0\n!\nline default\n exec-timeout 0 0\n transport input ssh\n!\ninterface MgmtEth0/RP0/CPU0/0\n description OOB\n ipv4 address 10.250.0.13 255.255.255.0\n no shutdown\n!\nssh server v2\nssh server vrf default\nvrf MOB-A\n address-family ipv4 unicast\n !\n!\nvrf MOB-B\n address-family ipv4 unicast\n !\n!\nvrf INET\n address-family ipv4 unicast\n !\n!\nvrf TLM\n address-family ipv4 unicast\n !\n!\ninterface Loopback0\n ipv4 address 10.255.0.12 255.255.255.255\n!\ninterface Loopback2\n vrf TLM\n ipv4 address 10.200.1.12 255.255.255.255\n!\ninterface GigabitEthernet0/0/0/0\n description to CORE\n ipv4 address 10.100.10.3 255.255.255.254\n no shutdown\n!\ninterface Bundle-Ether11\n description to CGN (LACP)\n no shutdown\n!\ninterface GigabitEthernet0/0/0/1\n bundle id 11 mode active\n no shutdown\n!\ninterface GigabitEthernet0/0/0/2\n bundle id 11 mode active\n no shutdown\n!\ninterface Bundle-Ether11.130\n vrf MOB-A\n ipv4 address 10.100.2.0 255.255.255.254\n encapsulation dot1q 130\n!\ninterface Bundle-Ether11.131\n vrf INET\n ipv4 address 10.100.2.2 255.255.255.254\n encapsulation dot1q 131\n!\ninterface Bundle-Ether11.140\n vrf MOB-B\n ipv4 address 10.100.2.4 255.255.255.254\n encapsulation dot1q 140\n!\ninterface Bundle-Ether11.141\n vrf INET\n ipv4 address 10.100.2.6 255.255.255.254\n encapsulation dot1q 141\n!\ninterface Bundle-Ether11.170\n vrf TLM\n ipv4 address 10.100.2.8 255.255.255.254\n encapsulation dot1q 170\n!"
+  cpu_limit: null
+  cpus: 4
+  data_volume: null
+  hide_links: false
+  id: n3
+  image_definition: iosxrv9000-25-1-1
+  label: PE-B
+  node_definition: iosxrv9000
+  parameters: {}
+  ram: 20480
+  tags:
+  - PE
+  - SITE-B
+  - XR
+  x: 300
+  y: 250
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: MgmtEth0/RP0/CPU0/0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: donotuse1
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: donotuse2
+    mac_address: null
+    type: physical
+    slot: 2
+  - id: i4
+    label: GigabitEthernet0/0/0/0
+    mac_address: null
+    type: physical
+    slot: 3
+  - id: i5
+    label: GigabitEthernet0/0/0/1
+    mac_address: null
+    type: physical
+    slot: 4
+  - id: i6
+    label: GigabitEthernet0/0/0/2
+    mac_address: null
+    type: physical
+    slot: 5
+- boot_disk_size: null
+  configuration:
+  - name: iosxe_config.txt
+    content: "hostname CGN-A1\nclock timezone UTC 0 0\nntp server 10.250.0.11\nbanner motd #\n==============================================================\n CGN-A1  |  Site A  |  Catalyst 8000V 17.16.01a\n Role: Site A CGN: NAT44 (VRF-lite, CE of PE-A)\n Data links:\n   GigabitEthernet2       -> PE-A GigabitEthernet0/0/0/1\n   GigabitEthernet3       -> PE-A GigabitEthernet0/0/0/2\n   OOB 10.250.0.14/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nusername cisco privilege 15 secret cisco\nusername admin privilege 15 secret C1sco12345\nno ip domain lookup\nip domain name lab.local\nip ssh version 2\ninterface GigabitEthernet1\n description OOB\n ip address 10.250.0.14 255.255.255.0\n no shutdown\nline con 0\n exec-timeout 0 0\n logging synchronous\nline vty 0 4\n login local\n transport input ssh\n exec-timeout 0 0\nevent manager applet GENKEYS authorization bypass\n event timer countdown name GK time 45\n action 1.0 cli command \"enable\"\n action 2.0 cli command \"show crypto key mypubkey rsa\"\n action 3.0 regexp \"Key name\" \"$_cli_result\"\n action 4.0 if $_regexp_result eq \"0\"\n action 5.0  cli command \"configure terminal\"\n action 6.0  cli command \"crypto key generate rsa modulus 2048\"\n action 7.0  cli command \"end\"\n action 8.0 end\nend"
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n4
+  image_definition: cat8000v-17-16-01a
+  label: CGN-A1
+  node_definition: cat8000v
+  parameters: {}
+  ram: null
+  tags:
+  - CGN
+  - SITE-A
+  - C8000V
+  x: -300
+  y: 500
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: GigabitEthernet1
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: GigabitEthernet2
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: GigabitEthernet3
+    mac_address: null
+    type: physical
+    slot: 2
+- boot_disk_size: null
+  configuration:
+  - name: iosxe_config.txt
+    content: "hostname CGN-B1\nclock timezone UTC 0 0\nntp server 10.250.0.11\nbanner motd #\n==============================================================\n CGN-B1  |  Site B  |  Catalyst 8000V 17.16.01a\n Role: Site B CGN: NAT44 (VRF-lite, CE of PE-B)\n Data links:\n   GigabitEthernet2       -> PE-B GigabitEthernet0/0/0/1\n   GigabitEthernet3       -> PE-B GigabitEthernet0/0/0/2\n   OOB 10.250.0.15/24 (management, global table)\n Users: cisco/cisco or admin/C1sco12345\n Verify the lab: on COLLECTOR run  labcheck <stage 1-4>\n==============================================================\n#\nusername cisco privilege 15 secret cisco\nusername admin privilege 15 secret C1sco12345\nno ip domain lookup\nip domain name lab.local\nip ssh version 2\ninterface GigabitEthernet1\n description OOB\n ip address 10.250.0.15 255.255.255.0\n no shutdown\nline con 0\n exec-timeout 0 0\n logging synchronous\nline vty 0 4\n login local\n transport input ssh\n exec-timeout 0 0\nevent manager applet GENKEYS authorization bypass\n event timer countdown name GK time 45\n action 1.0 cli command \"enable\"\n action 2.0 cli command \"show crypto key mypubkey rsa\"\n action 3.0 regexp \"Key name\" \"$_cli_result\"\n action 4.0 if $_regexp_result eq \"0\"\n action 5.0  cli command \"configure terminal\"\n action 6.0  cli command \"crypto key generate rsa modulus 2048\"\n action 7.0  cli command \"end\"\n action 8.0 end\nip vrf MOB-A\n!\nip vrf MOB-B\n!\nip vrf TLM\n!\ninterface Loopback0\n ip address 10.255.0.22 255.255.255.255\n!\ninterface Loopback2\n ip vrf forwarding TLM\n ip address 10.200.1.22 255.255.255.255\n!\ninterface Port-channel11\n description to PE (LACP)\n no ip address\n no shutdown\n!\ninterface GigabitEthernet2\n no ip address\n channel-group 11 mode active\n no shutdown\n!\ninterface GigabitEthernet3\n no ip address\n channel-group 11 mode active\n no shutdown\n!\ninterface Port-channel11.130\n encapsulation dot1Q 130\n ip vrf forwarding MOB-A\n ip address 10.100.2.1 255.255.255.254\n!\ninterface Port-channel11.131\n encapsulation dot1Q 131\n ip vrf forwarding MOB-A\n ip address 10.100.2.3 255.255.255.254\n!\ninterface Port-channel11.140\n encapsulation dot1Q 140\n ip vrf forwarding MOB-B\n ip address 10.100.2.5 255.255.255.254\n!\ninterface Port-channel11.141\n encapsulation dot1Q 141\n ip vrf forwarding MOB-B\n ip address 10.100.2.7 255.255.255.254\n!\ninterface Port-channel11.170\n encapsulation dot1Q 170\n ip vrf forwarding TLM\n ip address 10.100.2.9 255.255.255.254\n!\nend"
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n5
+  image_definition: cat8000v-17-16-01a
+  label: CGN-B1
+  node_definition: cat8000v
+  parameters: {}
+  ram: null
+  tags:
+  - CGN
+  - SITE-B
+  - C8000V
+  x: 300
+  y: 500
+  interfaces:
+  - id: i0
+    label: Loopback0
+    mac_address: null
+    type: loopback
+  - id: i1
+    label: GigabitEthernet1
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i2
+    label: GigabitEthernet2
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i3
+    label: GigabitEthernet3
+    mac_address: null
+    type: physical
+    slot: 2
+- boot_disk_size: null
+  configuration:
+  - name: node.cfg
+    content: 'hostname SUB
+
+      sh -c ''echo PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIFNVQiAgfCAgQWNjZXNzICB8ICBBbHBpbmUgMy4yMQogUm9sZTogU3Vic2NyaWJlcnM6IGFsaWFzZXMgaW4gVkxBTiAxMzAgKE1PQi1BKSBhbmQgMTQwIChNT0ItQikgYW5kIHRyYWZmaWMgZ2VuZXJhdG9yCiBEYXRhIGxpbmtzOgogICBldGgwICAgICAgICAgICAgICAgICAgIC0+IFBFLUFDQyBFdGhlcm5ldDAvMQogICBPT0IgMTAuMjUwLjAuMTYvMjQgKG1hbmFnZW1lbnQsIGdsb2JhbCB0YWJsZSkKIFVzZXJzOiBjaXNjby9jaXNjbyBvciBhZG1pbi9DMXNjbzEyMzQ1CiBWZXJpZnkgdGhlIGxhYjogb24gQ09MTEVDVE9SIHJ1biAgbGFiY2hlY2sgPHN0YWdlIDEtND4KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0K | base64 -d > /etc/motd && chmod 644 /etc/motd''
+
+      ip addr add 10.250.0.16/24 dev eth1
+
+      ip link set eth1 up
+
+      ntpd -p 10.250.0.11
+
+
+      # L1: VLAN 130 (MOB-A) and 140 (MOB-B) towards PE-ACC
+
+      modprobe 8021q
+
+      ip link set eth0 up
+
+      ip link add link eth0 name eth0.130 type vlan id 130
+
+      ip link add link eth0 name eth0.140 type vlan id 140
+
+      ip addr add 100.64.0.2/24 dev eth0.130
+
+      ip addr add 100.64.1.2/24 dev eth0.140
+
+      ip link set eth0.130 up
+
+      ip link set eth0.140 up'
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n6
+  image_definition: alpine-base-3-21-3
+  label: SUB
+  node_definition: alpine
+  parameters: {}
+  ram: null
+  tags:
+  - HOST
+  - ACCESS
+  - ALPINE
+  x: -360
+  y: -240
+  interfaces:
+  - id: i0
+    label: eth0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i1
+    label: eth1
+    mac_address: null
+    type: physical
+    slot: 1
+- boot_disk_size: null
+  configuration:
+  - name: node.cfg
+    content: 'hostname INET-SRV
+
+      sh -c ''echo PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIElORVQtU1JWICB8ICBBY2Nlc3MgIHwgIEFscGluZSAzLjIxCiBSb2xlOiBTaW11bGF0ZWQgSW50ZXJuZXQgc2VydmVyICgxOTIuMC4yLjEwKTogL2lwIHJldHVybnMgdGhlIElQIGl0IHNlZXMKIERhdGEgbGlua3M6CiAgIGV0aDAgICAgICAgICAgICAgICAgICAgLT4gUEUtQUNDIEV0aGVybmV0MC8yCiAgIE9PQiAxMC4yNTAuMC4xNy8yNCAobWFuYWdlbWVudCwgZ2xvYmFsIHRhYmxlKQogVXNlcnM6IGNpc2NvL2Npc2NvIG9yIGFkbWluL0Mxc2NvMTIzNDUKIFZlcmlmeSB0aGUgbGFiOiBvbiBDT0xMRUNUT1IgcnVuICBsYWJjaGVjayA8c3RhZ2UgMS00Pgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQo= | base64 -d > /etc/motd && chmod 644 /etc/motd''
+
+      ip addr add 10.250.0.17/24 dev eth1
+
+      ip link set eth1 up
+
+      ntpd -p 10.250.0.11
+
+
+      # L1: link towards PE-ACC (VRF INET)
+
+      ip addr add 192.0.2.10/24 dev eth0
+
+      ip link set eth0 up'
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n7
+  image_definition: alpine-base-3-21-3
+  label: INET-SRV
+  node_definition: alpine
+  parameters: {}
+  ram: null
+  tags:
+  - HOST
+  - ACCESS
+  - ALPINE
+  x: 0
+  y: -520
+  interfaces:
+  - id: i0
+    label: eth0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i1
+    label: eth1
+    mac_address: null
+    type: physical
+    slot: 1
+- boot_disk_size: null
+  configuration:
+  - name: user-data
+    content: "#cloud-config\nhostname: COLLECTOR\nmanage_etc_hosts: true\nsystem_info:\n  default_user:\n    name: cisco\npassword: cisco\nchpasswd:\n  expire: false\nssh_pwauth: true\nwrite_files:\n- path: /etc/motd\n  encoding: b64\n  content: PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIENPTExFQ1RPUiAgfCAgQWNjZXNzICB8ICBVYnVudHUgMjQuMDQKIFJvbGU6IE9PQiBqdW1wIGhvc3QsIHRlbGVtZXRyeSBjb2xsZWN0b3IgYW5kIHRoZSBsYWJjaGVjayBjb21tYW5kCiBEYXRhIGxpbmtzOgogICBlbnMyICAgICAgICAgICAgICAgICAgIC0+IFBFLUFDQyBFdGhlcm5ldDAvMwogICBPT0IgMTAuMjUwLjAuMTAvMjQgKG1hbmFnZW1lbnQsIGdsb2JhbCB0YWJsZSkKIFVzZXJzOiBjaXNjby9jaXNjbyBvciBhZG1pbi9DMXNjbzEyMzQ1CiBWZXJpZnkgdGhlIGxhYjogb24gQ09MTEVDVE9SIHJ1biAgbGFiY2hlY2sgPHN0YWdlIDEtND4KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0K\n- path: /etc/systemd/timesyncd.conf.d/lab.conf\n  encoding: b64\n  content: W1RpbWVdCk5UUD0xMC4yNTAuMC4xMQo=\n- path: /usr/local/bin/labcheck\n  permissions: '0755'\n  encoding: b64\n  content: IyEvYmluL2Jhc2gKIyBsYWJjaGVjayA8MXwyfDN8NHw1PiAgLSBDaGVja3MgdGhlIGxhYiBzdGF0ZSB1cCB0byB0aGUgZ2l2ZW4gc3RhZ2UgKGZyb20gQ09MTEVDVE9SLCBvdmVyIHRoZSBPT0IgbmV0d29yaykuCiMgICBTMSB0b3BvbG9neSAgUzIgY29ubmVjdGl2aXR5ICBTMyByb3V0aW5nICBTNCBDR04gYW5kIGZhaWxvdmVyICBTNSBvYnNlcnZhYmlsaXR5ICAgICAgRWFjaCBsaW5lOiBPSyAoZ3JlZW4pIG9yIEZBSUwgKHJlZCkuCiMgbGFiY2hlY2sgPGRheTF8ZGF5MnxkYXkzPiAgLSBDaGVja3MgdGhhdCB0aGUgbGFiIG9mIHRoYXQgdHJhaW5pbmcgZGF5IHN0YXJ0ZWQgaW4gdGhlIGV4cGVjdGVkIHN0YXRlIChiZWZvcmUgeW91IGNvbmZpZ3VyZSBhbnl0aGluZykuCiMgbGFiY2hlY2sgYWNjZXNzICAgICAgICAgICAgLSBkQ2xvdWQgb25seTogY2hlY2tzIHRoZSBhY2Nlc3MgcGF0aCAoZ2F0ZXdheSwgSW50ZXJuZXQsIEdyYWZhbmEpLgpTVEFHRT0kezE6LX0KREFZPSIiCmNhc2UgIiRTVEFHRSIgaW4KICAxfDJ8M3w0fDUpIDs7CiAgZGF5MSkgREFZPTE7IFNUQUdFPTI7OwogIGRheTIpIERBWT0yOyBTVEFHRT0yOzsKICBkYXkzKSBEQVk9MzsgU1RBR0U9NTs7CiAgYWNjZXNzKSA7OwogICopIGVjaG8gIlVzYWdlOiBsYWJjaGVjayA8MXwyfDN8NHw1fGRheTF8ZGF5MnxkYXkzfGFjY2Vzcz4iOyBlY2hvICIgIDEgdG9wb2xvZ3ksIDIgY29ubmVjdGl2aXR5LCAzIHJvdXRpbmcsIDQgQ0dOIGFuZCBmYWlsb3ZlciwgNSBvYnNlcnZhYmlsaXR5OyBkYXlOID0gc3RhcnQgc3RhdGUgb2YgdHJhaW5pbmcgZGF5IE47IGFjY2VzcyA9IGRDbG91ZCBhY2Nlc3MgcGF0aCI7IGV4aXQgMjs7IGVzYWMKTU9ERT0kU1RBR0UKRz0kJ1xlWzMybSc7IFI9JCdcZVszMW0nOyBZPSQnXGVbMzNtJzsgQj0kJ1xlWzFtJzsgTj0kJ1xlWzBtJwpkZWNsYXJlIC1BIElQPShbQ09SRV09MTAuMjUwLjAuMTEgW1BFLUFdPTEwLjI1MC4wLjEyIFtQRS1CXT0xMC4yNTAuMC4xMyBbQ0dOLUExXT0xMC4yNTAuMC4xNCBbQ0dOLUIxXT0xMC4yNTAuMC4xNSBbU1VCXT0xMC4yNTAuMC4xNiBbSU5FVC1TUlZdPTEwLjI1MC4wLjE3IFtQRS1BQ0NdPTEwLjI1MC4wLjE4KQpwcmludGYgJyMhL2Jpbi9zaFxuZWNobyBjaXNjb1xuJyA+IC90bXAvLmxhYnBhc3M7IGNobW9kIDcwMCAvdG1wLy5sYWJwYXNzCmV4cG9ydCBTU0hfQVNLUEFTUz0vdG1wLy5sYWJwYXNzIFNTSF9BU0tQQVNTX1JFUVVJUkU9Zm9yY2UgRElTUExBWT1ub25lCk9QVFM9Ii1vIFN0cmljdEhvc3RLZXlDaGVja2luZz1ubyAtbyBVc2VyS25vd25Ib3N0c0ZpbGU9L2Rldi9udWxsIC1vIExvZ0xldmVsPUVSUk9SIC1vIENvbm5lY3RUaW1lb3V0PTggLW8gUHVia2V5QXV0aGVudGljYXRpb249bm8iCmRldigpIHsgICMgdW5hIHNlc2lvbiBTU0ggcG9yIGNvbWFuZG87IHJlaW50ZW50YSBzaSBlbCBlcXVpcG8gcmVjaGF6YSBvIGNvcnRhIGxhIGNvbmV4aW9uIChJT1MvWFIgbGltaXRhbiBzZXNpb25lcyByYXBpZGFzKQogIGxvY2FsIG49JDE7IHNoaWZ0OyBsb2NhbCBvIGkKICBmb3IgaSBpbiAxIDIgMzsgZG8KICAgICMgc3RkaW4gYWJpZXJ0byAoZmQgOSk6IElPUyBjb3J0YSBlbCBjb21hbmRvIHNpIHJlY2liZSBFT0YgYW50ZXMgZGUgdGVybWluYXIgKHAuIGVqLiB1biBwaW5nKQogICAgbz0kKHNzaCAkT1BUUyBjaXNjb0Ake0lQWyRuXX0gIiQqIiAyPiYxIDwmOSB8IHRyIC1kICdccicgfCBzZWQgLUUgJ3MvQ29ubmVjdGlvbiB0byBbXiBdKyBjbG9zZWQgYnkgcmVtb3RlIGhvc3RcLi8vJykKICAgIGlmICEgZ3JlcCAtRXEgJ2tleF9leGNoYW5nZV9pZGVudGlmaWNhdGlvbnxDb25uZWN0aW9uIHJlc2V0fENvbm5lY3Rpb24gcmVmdXNlZHx0aW1lZCBvdXQnIDw8PCIkbyIgJiYgWyAtbiAiJG8iIF07IHRoZW4gYnJlYWs7IGZpCiAgICBzbGVlcCAyCiAgZG9uZQogIHNsZWVwIDAuNTsgcHJpbnRmICclc1xuJyAiJG8iCn0KcG5nKCkgeyAgIyBwaW5nIGRlc2RlIHVuIGVxdWlwbzsgcmVpbnRlbnRhIHNpIGxhIHNlc2lvbiBzZSBjb3J0YS4gTGEgMWEgcmVzcHVlc3RhIHB1ZWRlIHBlcmRlcnNlIHBvciBBUlA6IHNlIGFjZXB0YSA+PSA4MCAlCiAgbG9jYWwgbj0kMSBkPSQyIHI9cmVwZWF0IG8gaTsgY2FzZSAkbiBpbiBQRS1BfFBFLUIpIHI9Y291bnQ7OyBlc2FjCiAgZm9yIGkgaW4gMSAyIDM7IGRvIG89JChkZXYgJG4gInBpbmcgJGQgJHIgNSIpOyBncmVwIC1xICJTdWNjZXNzIHJhdGUiIDw8PCIkbyIgJiYgYnJlYWs7IHNsZWVwIDI7IGRvbmUKICBwcmludGYgJyVzXG4nICIkbyIKfQptdWx0aSgpIHsgbG9jYWwgbj0kMTsgc2hpZnQ7IGxvY2FsIGM7IGZvciBjIGluICIkQCI7IGRvIGRldiAkbiAiJGMiOyBkb25lOyB9ICAjIElPUy9YUiBubyBlbmNhZGVuYW4gY29tYW5kb3MgY29uIDsKZXhlYyA5PCA8KGV4ZWMgdGFpbCAtZiAvZGV2L251bGwpOyBUUD0kITsgdHJhcCAna2lsbCAkVFAgMj4vZGV2L251bGwnIEVYSVQKUEFTUz0wOyBGQUlMPTAKb2soKSAgeyBQQVNTPSQoKFBBU1MrMSkpOyBwcmludGYgJyAgJXNbIE9LIF0lcyAlc1xuJyAiJEciICIkTiIgIiQxIjsgfQprbygpICB7IEZBSUw9JCgoRkFJTCsxKSk7IHByaW50ZiAnICAlc1tGQUlMXSVzICVzXG4nICIkUiIgIiROIiAiJDEiOyBbIC1uICIkTEFCQ0hFQ0tfREVCVUciIF0gJiYgcHJpbnRmICclc1xuJyAiJExBU1QiIHwgdGFpbCAtbiA0IHwgc2VkICdzL14vICAgICAgICAgfCAvJzsgfQp3YXJuKCl7IHByaW50ZiAnICAlc1tXQVJOXSVzICVzXG4nICIkWSIgIiROIiAiJDEiOyB9CmNoaygpIHsgbG9jYWwgZGVzYz0kMSBvdXQ9JDIgcGF0PSQzOyBMQVNUPSRvdXQ7IGlmIGdyZXAgLUVxICIkcGF0IiA8PDwiJG91dCI7IHRoZW4gb2sgIiRkZXNjIjsgZWxzZSBrbyAiJGRlc2MiOyBmaTsgfQpjbnQoKSB7IGxvY2FsIGRlc2M9JDEgb3V0PSQyIHBhdD0kMyB3YW50PSQ0IG47IExBU1Q9JG91dDsgbj0kKGdyZXAgLUVvICIkcGF0IiA8PDwiJG91dCIgfCB3YyAtbCk7IGlmIFsgIiRuIiAtZ2UgIiR3YW50IiBdOyB0aGVuIG9rICIkZGVzYyAoJG4pIjsgZWxzZSBrbyAiJGRlc2MgKGZvdW5kICRuLCBleHBlY3RlZCA+PSAkd2FudCkiOyBmaTsgfQp0aXRsZSgpIHsgcHJpbnRmICdcbiVzPT0gJXMgPT0lc1xuJyAiJEIiICIkMSIgIiROIjsgfQpwaW5nMTAwPSdTdWNjZXNzIHJhdGUgaXMgKDEwMHw4MCkgcGVyY2VudCcKCmZpbmlzaCgpIHsgcHJpbnRmICdcbiVzUmVzdWx0OiAlZCBPSywgJWQgRkFJTCVzXG4nICIkQiIgJFBBU1MgJEZBSUwgIiROIjsgWyAkRkFJTCAtZXEgMCBdOyBleGl0ICQ/OyB9CmFic2VudCgpIHsgbG9jYWwgZGVzYz0kMSBvdXQ9JDIgcGF0PSQzOyBMQVNUPSRvdXQ7IGlmIGdyZXAgLUVxICIkcGF0IiA8PDwiJG91dCI7IHRoZW4ga28gIiRkZXNjIjsgZWxzZSBvayAiJGRlc2MiOyBmaTsgfQoKaWYgWyAiJE1PREUiID0gYWNjZXNzIF07IHRoZW4KICB0aXRsZSAiQWNjZXNzIChkQ2xvdWQpOiBwYXRoIGZyb20gdGhlIENPTExFQ1RPUiIKICBpZiBpcCAtNCBhZGRyIHNob3cgMj4vZGV2L251bGwgfCBncmVwIC1xICcxOTguMTguMTI4LjMvJzsgdGhlbiBvayAiQ09MTEVDVE9SIGV4dGVybmFsIGFkZHJlc3MgMTk4LjE4LjEyOC4zIjsgZWxzZSB3YXJuICJub3QgdGhlIGRDbG91ZCB2YXJpYW50IChubyAxOTguMTguMTI4LjMpOiBub3RoaW5nIHRvIGNoZWNrIjsgZmluaXNoOyBmaQogIGlmIHBpbmcgLWMgMiAtVyAyIDE5OC4xOC4xMjguMSA+L2Rldi9udWxsIDI+JjE7IHRoZW4gb2sgIkdhdGV3YXkgMTk4LjE4LjEyOC4xIHJlYWNoYWJsZSI7IGVsc2Uga28gIkdhdGV3YXkgMTk4LjE4LjEyOC4xIG5vdCByZWFjaGFibGUiOyBmaQogIGNvZGU9JChjdXJsIC1zIC1tIDEwIC1vIC9kZXYvbnVsbCAtdyAnJXtodHRwX2NvZGV9JyBodHRwczovL3JlZ2lzdHJ5LTEuZG9ja2VyLmlvL3YyLyAyPi9kZXYvbnVsbCkKICBjYXNlICIkY29kZSIgaW4gMjAwfDQwMSkgb2sgIkludGVybmV0OiBEb2NrZXIgSHViIGFuc3dlcnMgKCRjb2RlKSI7OyAqKSBrbyAiSW50ZXJuZXQ6IERvY2tlciBIdWIgbm90IHJlYWNoYWJsZSAoY29kZSAnJGNvZGUnKSI7OyBlc2FjCiAgaWYgWyAtZCAvb3B0L2xhYiBdOyB0aGVuICAgIyBvbmx5IHRoZSBEYXkgMyBsYWIgKFM1KSBjYXJyaWVzIHRoZSBzdGFjawogICAgY29kZT0kKGN1cmwgLXMgLW0gOCAtbyAvZGV2L251bGwgLXcgJyV7aHR0cF9jb2RlfScgaHR0cDovLzE5OC4xOC4xMjguMzozMDAwL2FwaS9oZWFsdGggMj4vZGV2L251bGwpCiAgICBpZiBbICIkY29kZSIgPSAyMDAgXTsgdGhlbiBvayAiR3JhZmFuYSBhbnN3ZXJzIG9uIGh0dHA6Ly8xOTguMTguMTI4LjM6MzAwMCI7IGVsc2Ugd2FybiAiR3JhZmFuYSBub3QgYW5zd2VyaW5nIHlldCAoY29kZSAnJGNvZGUnKTogdGhlIHN0YWNrIG1heSBzdGlsbCBiZSBpbnN0YWxsaW5nIChhYm91dCAzIG1pbnV0ZXMgYWZ0ZXIgdGhlIGZpcnN0IGJvb3QpIjsgZmkKICBmaQogIGZpbmlzaApmaQoKZGF5Ml9leHRyYSgpIHsKICB0aXRsZSAiRGF5IDIgc3RhcnQgc3RhdGUgKExhYiAyKTogcm91dGluZyByZWFkeSBleGNlcHQgU2l0ZSBBIgogIG89JChkZXYgQ09SRSAic2hvdyBpcCBvc3BmIG5laWdoYm9yIik7IG49JChncmVwIC1jIEZVTEwgPDw8IiRvIik7IGlmIFsgIiRuIiAtZXEgMiBdOyB0aGVuIG9rICJDT1JFIE9TUEY6IDIgRlVMTCBuZWlnaGJvcnMgKFBFLUIgYW5kIFBFLUFDQzsgUEUtQSBpcyB5b3VycykiOyBlbHNlIGtvICJDT1JFIE9TUEY6ICRuIEZVTEwgbmVpZ2hib3JzLCBleHBlY3RlZCAyIjsgZmkKICBvPSQoZGV2IENPUkUgInNob3cgYmdwIHZwbnY0IHVuaWNhc3QgYWxsIHN1bW1hcnkiKTsgbj0kKGdyZXAgLUVvICdeMTBcLjI1NVwuMFwuKDJ8MTIpIC4qIFsxLTldWzAtOV0qJCcgPDw8IiRvIiB8IHdjIC1sKTsgaWYgWyAiJG4iIC1lcSAyIF07IHRoZW4gb2sgIkNPUkUgQkdQIFZQTnY0OiBQRS1CIGFuZCBQRS1BQ0Mgd2l0aCBwcmVmaXhlcyI7IGVsc2Uga28gIkNPUkUgQkdQIFZQTnY0OiAkbiBjbGllbnRzIHdpdGggcHJlZml4ZXMsIGV4cGVjdGVkIDIiOyBmaQogIG89JChkZXYgUEUtQUNDICJzaG93IGlwIHJvdXRlIHZyZiBNT0ItQSAwLjAuMC4wIik7IGlmIGdyZXAgLXEgMTAuMjU1LjAuMTIgPDw8IiRvIiAmJiAhIGdyZXAgLXEgMTAuMjU1LjAuMTEgPDw8IiRvIjsgdGhlbiBvayAiUEUtQUNDIGRlZmF1bHQgcm91dGUgaW4gTU9CLUEgb25seSB2aWEgUEUtQiAoU2l0ZSBBIG5vdCByb3V0ZWQgeWV0KSI7IGVsc2Uga28gIlBFLUFDQyBkZWZhdWx0IHJvdXRlIGluIE1PQi1BIGlzIG5vdCBleGNsdXNpdmVseSB2aWEgUEUtQiI7IGZpCiAgbz0kKGRldiBDR04tQjEgInNob3cgaXAgbmF0IHN0YXRpc3RpY3MiKTsgY2hrICJDR04tQjE6IE5BVCBhY3RpdmUgd2l0aCBwZXItaG9zdCBsaW1pdCAzMDAgKFNpdGUgQiByZWFkeSkiICIkbyIgJ0FsbCBIb3N0IE1heCBhbGxvd2VkOiAzMDAnCiAgbz0kKGRldiBDR04tQTEgInNob3cgcnVubmluZy1jb25maWcgfCBpbmNsdWRlIGlwIG5hdCBwb29sIik7IGFic2VudCAiQ0dOLUExOiBubyBOQVQgcG9vbHMgeWV0ICh0aGlzIGlzIHlvdXIgdGFzaykiICIkbyIgJ1BPT0wtTU9CJwogIG89JChkZXYgUEUtQSAic2hvdyBvc3BmIG5laWdoYm9yIik7IGFic2VudCAiUEUtQTogbm8gT1NQRiBuZWlnaGJvcnMgeWV0ICh0aGlzIGlzIHlvdXIgdGFzaykiICIkbyIgJ0ZVTEwnCn0KCmRheTFfY2hlY2tzKCkgewogIHRpdGxlICJEYXkgMSBzdGFydCBzdGF0ZSAoTGFiIDEpOiBTaXRlIEIgYW5kIHRoZSByZXN0IGNvbm5lY3RlZCwgU2l0ZSBBIGVtcHR5IgogIG89JChwbmcgQ09SRSAxMC4xMDAuMTAuMzsgcG5nIENPUkUgMTAuMTAwLjEwLjUpOyBjbnQgIkNPUkUgcmVhY2hlcyBQRS1CIGFuZCBQRS1BQ0MgKC8zMSBsaW5rcykiICIkbyIgIiRwaW5nMTAwIiAyCiAgbz0kKGRldiBQRS1CICJzaG93IGJ1bmRsZSBidW5kbGUtZXRoZXIgMTEiKTsgY2hrICJQRS1CIEJ1bmRsZS1FdGhlcjExIHdpdGggMiBhY3RpdmUgbWVtYmVycyAoU2l0ZSBCIHJlYWR5KSIgIiRvIiAnTG9jYWwgbGlua3MuKjogKjIgKi8gKjAgKi8gKjInCiAgZm9yIHYgaW4gIk1PQi1BIDEwLjEwMC4yLjEiICJNT0ItQiAxMC4xMDAuMi41IiAiSU5FVCAxMC4xMDAuMi4zIiAiVExNIDEwLjEwMC4yLjkiOyBkbyBzZXQgLS0gJHY7IG89JChwbmcgUEUtQiAidnJmICQxICQyIik7IGNoayAiUEUtQiAtPiBDR04tQjEgaW4gVlJGICQxICgkMikiICIkbyIgIiRwaW5nMTAwIjsgZG9uZQogIG89JChwbmcgUEUtQUNDICJ2cmYgTU9CLUEgMTAwLjY0LjAuMiI7IHBuZyBQRS1BQ0MgInZyZiBNT0ItQiAxMDAuNjQuMS4yIjsgcG5nIFBFLUFDQyAidnJmIElORVQgMTkyLjAuMi4xMCI7IHBuZyBQRS1BQ0MgInZyZiBUTE0gMTAuMjAwLjAuMiIpOyBjbnQgIlBFLUFDQyByZWFjaGVzIFNVQiAoTU9CLUEgYW5kIE1PQi1CKSwgSU5FVC1TUlYgYW5kIENPTExFQ1RPUiIgIiRvIiAiJHBpbmcxMDAiIDQKICBvPSQoZGV2IFBFLUEgInNob3cgaXAgaW50ZXJmYWNlIGJyaWVmIik7IGFic2VudCAiUEUtQTogU2l0ZSBBIG5vdCBjb25maWd1cmVkIHlldCAodGhpcyBpcyB5b3VyIHRhc2spIiAiJG8iICdCdW5kbGUtRXRoZXIxMVwuMVszNF0nCiAgbz0kKGRldiBDR04tQTEgInNob3cgaXAgaW50ZXJmYWNlIGJyaWVmIik7IGFic2VudCAiQ0dOLUExOiBTaXRlIEEgbm90IGNvbmZpZ3VyZWQgeWV0ICh0aGlzIGlzIHlvdXIgdGFzaykiICIkbyIgJ1BvcnQtY2hhbm5lbDExXC4xWzM0XScKfQoKdGl0bGUgIlN0YWdlIFMxIC0gVG9wb2xvZ3kgKEwwKTogT09CIGFjY2VzcyBhbmQgYmFzZSIKZm9yIG4gaW4gQ09SRSBQRS1BQ0MgUEUtQSBQRS1CIENHTi1BMSBDR04tQjEgU1VCIElORVQtU1JWOyBkbwogIGNhc2UgJG4gaW4gU1VCfElORVQtU1JWKSBvPSQoZGV2ICRuIGRhdGUpOzsgKikgbz0kKGRldiAkbiAic2hvdyBjbG9jayIpOzsgZXNhYwogIGNoayAiT09CIFNTSCB0byAkbiAoJHtJUFskbl19KSIgIiRvIiAnMjBbMC05XVswLTldfFVUQycKZG9uZQpmb3IgbiBpbiBDT1JFIFBFLUFDQyBQRS1BIFBFLUIgQ0dOLUExIENHTi1CMTsgZG8KICBvPSQoZGV2ICRuICJzaG93IG50cCBzdGF0dXMiKQogIGlmIGdyZXAgLUVxICJDbG9jayBpcyBzeW5jaHJvbml6ZWQiIDw8PCIkbyI7IHRoZW4gb2sgIk5UUCBzeW5jaHJvbml6ZWQgb24gJG4iOyBlbHNlIHdhcm4gIk5UUCBub3Qgc3luY2hyb25pemVkIHlldCBvbiAkbiAoaXQgY2FuIHRha2UgYSBmZXcgbWludXRlcyBhZnRlciBib290KSI7IGZpCmRvbmUKWyAiJERBWSIgPSAxIF0gJiYgeyBkYXkxX2NoZWNrczsgZmluaXNoOyB9ClsgIiRTVEFHRSIgLWx0IDIgXSAmJiB7IGZpbmlzaDsgfQoKdGl0bGUgIlN0YWdlIFMyIC0gQ29ubmVjdGl2aXR5IChMMSk6IGxpbmtzLCBidW5kbGUsIFZSRiIKbz0kKHBuZyBDT1JFIDEwLjEwMC4xMC4xOyBwbmcgQ09SRSAxMC4xMDAuMTAuMzsgcG5nIENPUkUgMTAuMTAwLjEwLjUpOyBjbnQgIkNPUkUgcmVhY2hlcyBQRS1BLCBQRS1CIGFuZCBQRS1BQ0MgKC8zMSBsaW5rcykiICIkbyIgIiRwaW5nMTAwIiAzCmZvciBzIGluIEEgQjsgZG8KICBwZT1QRS0kczsgY2c9Q0dOLSR7c30xCiAgbz0kKGRldiAkcGUgInNob3cgYnVuZGxlIGJ1bmRsZS1ldGhlciAxMSIpOyBjaGsgIiRwZSBCdW5kbGUtRXRoZXIxMSB3aXRoIDIgYWN0aXZlIG1lbWJlcnMiICIkbyIgJ0xvY2FsIGxpbmtzLio6ICoyICovICowICovICoyJwogIG89JChkZXYgJGNnICJzaG93IGV0aGVyY2hhbm5lbCBzdW1tYXJ5Iik7IGNudCAiJGNnIFBvcnQtY2hhbm5lbDExIHdpdGggMiBtZW1iZXJzIChibmRsKSIgIiRvIiAnR2lbMjNdXChibmRsXCknIDIKICBiPSQoWyAkcyA9IEEgXSAmJiBlY2hvIDEgfHwgZWNobyAyKQogIGZvciB2IGluICJNT0ItQSAxMC4xMDAuJGIuMSIgIk1PQi1CIDEwLjEwMC4kYi41IiAiSU5FVCAxMC4xMDAuJGIuMyIgIlRMTSAxMC4xMDAuJGIuOSI7IGRvCiAgICBzZXQgLS0gJHY7IG89JChwbmcgJHBlICJ2cmYgJDEgJDIiKTsgY2hrICIkcGUgLT4gJGNnIGluIFZSRiAkMSAoJDIpIiAiJG8iICIkcGluZzEwMCIKICBkb25lCmRvbmUKbz0kKHBuZyBQRS1BQ0MgInZyZiBNT0ItQSAxMDAuNjQuMC4yIjsgcG5nIFBFLUFDQyAidnJmIE1PQi1CIDEwMC42NC4xLjIiOyBwbmcgUEUtQUNDICJ2cmYgSU5FVCAxOTIuMC4yLjEwIjsgcG5nIFBFLUFDQyAidnJmIFRMTSAxMC4yMDAuMC4yIik7IGNudCAiUEUtQUNDIHJlYWNoZXMgU1VCIChNT0ItQSBhbmQgTU9CLUIpLCBJTkVULVNSViBhbmQgQ09MTEVDVE9SIiAiJG8iICIkcGluZzEwMCIgNApbICIkU1RBR0UiIC1sdCAzIF0gJiYgeyBbICIkREFZIiA9IDIgXSAmJiBkYXkyX2V4dHJhOyBmaW5pc2g7IH0KCnRpdGxlICJTdGFnZSBTMyAtIFJvdXRpbmcgKEwyKTogSUdQLCBMRFAsIEJHUCBWUE52NCwgRUNNUCwgVExNIgpvPSQoZGV2IENPUkUgInNob3cgaXAgb3NwZiBuZWlnaGJvciIpOyBjbnQgIk9TUEY6IDMgRlVMTCBuZWlnaGJvcnMgb24gQ09SRSIgIiRvIiAnRlVMTCcgMwpvPSQoZGV2IENPUkUgInNob3cgYmZkIG5laWdoYm9ycyIpOyBjbnQgIkJGRDogMyBzZXNzaW9ucyBVcCIgIiRvIiAnVXAgK1VwJyAzCm89JChkZXYgQ09SRSAic2hvdyBtcGxzIGxkcCBuZWlnaGJvciB8IGluY2x1ZGUgUGVlciBMRFAiKTsgY250ICJMRFA6IDMgbmVpZ2hib3JzIiAiJG8iICdQZWVyIExEUCcgMwpvPSQoZGV2IENPUkUgInNob3cgYmdwIHZwbnY0IHVuaWNhc3QgYWxsIHN1bW1hcnkiKTsgY250ICJpQkdQIFZQTnY0OiAzIFJSIGNsaWVudHMgd2l0aCBwcmVmaXhlcyIgIiRvIiAnXjEwXC4yNTVcLjBcLlswLTldKyAuKiBbMS05XVswLTldKiQnIDMKZm9yIHYgaW4gTU9CLUEgTU9CLUI7IGRvCiAgbz0kKGRldiBQRS1BQ0MgInNob3cgaXAgcm91dGUgdnJmICR2IDAuMC4wLjAiKTsgaWYgZ3JlcCAtcSAiMTAuMjU1LjAuMTEiIDw8PCIkbyIgJiYgZ3JlcCAtcSAiMTAuMjU1LjAuMTIiIDw8PCIkbyI7IHRoZW4gb2sgIkVDTVAgaW4gJHY6IGRlZmF1bHQgdmlhIFBFLUEgYW5kIFBFLUIiOyBlbHNlIGtvICJFQ01QIGluICR2OiBkZWZhdWx0IHZpYSBQRS1BIGFuZCBQRS1CIjsgZmkKZG9uZQpvPSQocG5nIENHTi1BMSAidnJmIE1PQi1BIDE5Mi4wLjIuMTAgc291cmNlIFBvcnQtY2hhbm5lbDExLjEzMSIpOyBjaGsgIkNHTi1BMSByZWFjaGVzIElORVQtU1JWIChubyBOQVQpIiAiJG8iICIkcGluZzEwMCIKbz0kKHBuZyBDR04tQjEgInZyZiBNT0ItQSAxOTIuMC4yLjEwIHNvdXJjZSBQb3J0LWNoYW5uZWwxMS4xMzEiKTsgY2hrICJDR04tQjEgcmVhY2hlcyBJTkVULVNSViAobm8gTkFUKSIgIiRvIiAiJHBpbmcxMDAiCmZvciBpcCBpbiAxMC4yMDAuMS4yIDEwLjIwMC4xLjExIDEwLjIwMC4xLjEyIDEwLjIwMC4xLjIxIDEwLjIwMC4xLjIyOyBkbwogIGlmIHBpbmcgLWMgMiAtVyAyICRpcCA+L2Rldi9udWxsIDI+JjE7IHRoZW4gb2sgIlRMTTogQ09MTEVDVE9SIHJlYWNoZXMgTG8yICRpcCI7IGVsc2Uga28gIlRMTTogQ09MTEVDVE9SIHJlYWNoZXMgTG8yICRpcCI7IGZpCmRvbmUKWyAiJFNUQUdFIiAtbHQgNCBdICYmIHsgcHJpbnRmICdcbiVzUmVzdWx0OiAlZCBPSywgJWQgRkFJTCVzXG4nICIkQiIgJFBBU1MgJEZBSUwgIiROIjsgWyAkRkFJTCAtZXEgMCBdOyBleGl0ICQ/OyB9Cgp0aXRsZSAiU3RhZ2UgUzQgLSBDR04gYW5kIGZhaWxvdmVyIChMMyk6IE5BVDQ0IGFuZCBsb2FkIHNoYXJpbmcgYmV0d2VlbiBzaXRlcyIKbz0kKGRldiBTVUIgIm5vcm1hbC5zaCIpCmNudCAiMzYgU1VCIGFsaWFzZXMgZ2V0IGEgcHVibGljIElQIGZyb20gYSBwb29sIiAiJG8iICdeMTAwXC42NFwuWzAxXVwuWzAtOV0rIDIwM1wuMFwuMTEzXC5bMC05XSskJyAzNgpzaXRlQT0kKGF3ayAne3NwbGl0KCQyLHAsIi4iKTsgaWYgKCgkMSB+IC9eMTAwXC42NFwuMFwuLyAmJiBwWzRdPD0zKSB8fCAoJDEgfiAvXjEwMFwuNjRcLjFcLi8gJiYgcFs0XT49NCAmJiBwWzRdPD03KSkgbisrfSBFTkR7cHJpbnQgbiswfScgPDw8IiRvIikKc2l0ZUI9JChhd2sgJ3tzcGxpdCgkMixwLCIuIik7IGlmICgoJDEgfiAvXjEwMFwuNjRcLjBcLi8gJiYgcFs0XT49OCAmJiBwWzRdPD0xMSkgfHwgKCQxIH4gL14xMDBcLjY0XC4xXC4vICYmIHBbNF0+PTEyICYmIHBbNF08PTE1KSkgbisrfSBFTkR7cHJpbnQgbiswfScgPDw8IiRvIikKaWYgWyAiJHNpdGVBIiAtZ3QgMCBdICYmIFsgIiRzaXRlQiIgLWd0IDAgXTsgdGhlbiBvayAiRUNNUCBsb2FkIHNoYXJpbmc6ICRzaXRlQSBhbGlhc2VzIGV4aXQgdmlhIFNpdGUgQSBhbmQgJHNpdGVCIHZpYSBTaXRlIEIiOyBlbHNlIGtvICJFQ01QIGxvYWQgc2hhcmluZzogU2l0ZSBBPSRzaXRlQSwgU2l0ZSBCPSRzaXRlQiAoYm90aCBleHBlY3RlZCA+IDApIjsgZmkKZm9yIGMgaW4gQ0dOLUExIENHTi1CMTsgZG8gbz0kKGRldiAkYyAic2hvdyBpcCBuYXQgc3RhdGlzdGljcyIpOyBjaGsgIiRjOiBOQVQgYWN0aXZlIHdpdGggcGVyLWhvc3QgbGltaXQgMzAwIiAiJG8iICdBbGwgSG9zdCBNYXggYWxsb3dlZDogMzAwJzsgZG9uZQpbICIkU1RBR0UiIC1sdCA1IF0gJiYgeyBwcmludGYgJ1xuJXNSZXN1bHQ6ICVkIE9LLCAlZCBGQUlMJXNcbicgIiRCIiAkUEFTUyAkRkFJTCAiJE4iOyBbICRGQUlMIC1lcSAwIF07IGV4aXQgJD87IH0KCnRpdGxlICJTdGFnZSBTNSAtIE9ic2VydmFiaWxpdHk6IE5ldEZsb3csIHN5c2xvZywgTURULCBTTk1QLCBHcmFmYW5hIgpmcSgpIHsgICMgbGFzdCB2YWx1ZSBvZiBhIEZsdXggcXVlcnkgKEluZmx1eERCIHJ1bnMgaW4gYSBjb250YWluZXIgb24gdGhpcyBob3N0KQogIHN1ZG8gZG9ja2VyIGV4ZWMgbGFiLWluZmx1eGRiLTEgaW5mbHV4IHF1ZXJ5IC0tb3JnIGxhYiAtLXRva2VuIGxhYi10b2tlbi1jZ24gIiQxIiAtLXJhdyAyPi9kZXYvbnVsbCB8IGF3ayAtRiwgJy9eLCxbMC05XS97dj0kTkZ9IEVORHtwcmludCB2KzB9Jwp9Cm5zcmMoKSB7ICAjIG51bWJlciBvZiBkaXN0aW5jdCB2YWx1ZXMgb2YgYSB0YWcgaW4gYSBtZWFzdXJlbWVudCBkdXJpbmcgdGhlIGxhc3QgJDMgbWludXRlcwogIGZxICJmcm9tKGJ1Y2tldDpcImxhYlwiKSB8PiByYW5nZShzdGFydDotJHszfW0pIHw+IGZpbHRlcihmbjoocik9PiByLl9tZWFzdXJlbWVudD09XCIkMVwiKSB8PiBrZWVwKGNvbHVtbnM6W1wiJDJcIl0pIHw+IGdyb3VwKCkgfD4gZGlzdGluY3QoY29sdW1uOlwiJDJcIikgfD4gY291bnQoKSIKfQp3YW50KCkgeyBsb2NhbCBkZXNjPSQxIGdvdD0kMiBtaW49JDM7IGlmIFsgIiRnb3QiIC1nZSAiJG1pbiIgXTsgdGhlbiBvayAiJGRlc2MgKCRnb3QpIjsgZWxzZSBrbyAiJGRlc2MgKGZvdW5kICRnb3QsIGV4cGVjdGVkID49ICRtaW4pIjsgZmk7IH0Kbz0kKHN1ZG8gZG9ja2VyIHBzIC0tZm9ybWF0ICd7ey5OYW1lc319IHt7LlN0YXR1c319Jyk7IGNudCAiQ29udGFpbmVycyB1cDogaW5mbHV4ZGIsIHRlbGVncmFmLCBncmFmYW5hIiAiJG8iICcgVXAgJyAzCm89JChjdXJsIC1zIC1tIDggaHR0cDovL2xvY2FsaG9zdDozMDAwL2FwaS9zZWFyY2gpOyBjbnQgIkdyYWZhbmEgYW5zd2VycyBhbmQgaGFzIHRoZSAyIGRhc2hib2FyZHMgKFNpdGVzLCBEZXZpY2VzKSIgIiRvIiAnInVpZCI6ImxhYi0oc2l0ZXN8ZGV2aWNlcykiJyAyCmRldiBTVUIgIm5vcm1hbC5zaCIgPi9kZXYvbnVsbApkZXYgQ0dOLUExICJjb25maWd1cmUgdGVybWluYWwiID4vZGV2L251bGw7IHNsZWVwIDE0CndhbnQgIk5ldEZsb3cgdjk6IE5BVCBldmVudHMgZnJvbSB0aGUgMiBDR05zIChsYXN0IDEwIG1pbikiICIkKG5zcmMgbmV0ZmxvdyBzb3VyY2UgMTApIiAyCndhbnQgIlN5c2xvZzogQ09ORklHX0kgZnJvbSBDR04tQTEgcmVhY2hlZCB0aGUgY29sbGVjdG9yIiAiJChmcSAnZnJvbShidWNrZXQ6ImxhYiIpIHw+IHJhbmdlKHN0YXJ0Oi0zbSkgfD4gZmlsdGVyKGZuOihyKT0+IHIuX21lYXN1cmVtZW50PT0ic3lzbG9nIiBhbmQgci5ub2RlPT0iQ0dOLUExIiBhbmQgci5fZmllbGQ9PSJtbmVtb25pYyIgYW5kIHIuX3ZhbHVlPX4vQ09ORklHX0kvKSB8PiBncm91cCgpIHw+IGNvdW50KCknKSIgMQp3YW50ICJNRFQgSU9TIFhFIChnUlBDIDU4MDAwKTogQ0dOLUExIGFuZCBDR04tQjEgc2VuZCBDUFUiICIkKG5zcmMgeGVfY3B1IHNvdXJjZSAzKSIgMgp3YW50ICJNRFQgSU9TIFhSIChUQ1AgNTcwMDApOiBQRS1BIGFuZCBQRS1CIHNlbmQgQ1BVIiAiJChuc3JjIHhyX2NwdSBzb3VyY2UgMykiIDIKd2FudCAiU05NUDogNiBub2RlcyBhbnN3ZXIiICIkKG5zcmMgc25tcF9pbnRlcmZhY2Ugc3lzTmFtZSAzKSIgNgppZiBbICIkREFZIiA9IDMgXTsgdGhlbgogIHRpdGxlICJEYXkgMyBzdGFydCBzdGF0ZTogZXhlcmNpc2UgdG9vbHMiCiAgaWYgY29tbWFuZCAtdiBweWFuZyA+L2Rldi9udWxsICYmIGNvbW1hbmQgLXYgZ2V0eWFuZyA+L2Rldi9udWxsOyB0aGVuIG9rICJweWFuZyBhbmQgZ2V0eWFuZyBpbnN0YWxsZWQiOyBlbHNlIGtvICJweWFuZyAvIGdldHlhbmcgbWlzc2luZyI7IGZpCiAgbz0kKGN1cmwgLXMgLW0gOCAtdSBhZG1pbjpDMXNjbzEyMzQ1IGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9hcGkvZGF0YXNvdXJjZXMpOyBjbnQgIkdyYWZhbmEgZGF0YSBzb3VyY2VzOiBGbHV4IGFuZCBJbmZsdXhRTCIgIiRvIiAnInVpZCI6ImxhYi1pbmZsdXgocWwpPyInIDIKICBvPSQoY3VybCAtcyAtbSA4IGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9hcGkvc2VhcmNoKTsgY2hrICJHcmFmYW5hIGhhcyB0aGUgRXhlcmNpc2UgZGFzaGJvYXJkIiAiJG8iICcidWlkIjoibGFiLWV4ZXJjaXNlIicKICBvPSQodHJhZmZpYyBzdGF0dXMpOyBjaGsgIlN1YnNjcmliZXIgdHJhZmZpYyBpcyBydW5uaW5nICh0cmFmZmljIHN0YXR1cykiICIkbyIgJ3J1bm5pbmcnCmZpCmZpbmlzaAo=\n- path: /usr/local/bin/traffic\n  permissions: '0755'\n  encoding: b64\n  content: IyEvYmluL2Jhc2gKIyB0cmFmZmljIHN0YXJ0fHN0b3B8c3RhdHVzICAtICBjb250cm9scyB0aGUgY29udGludW91cyBzdWJzY3JpYmVyIHRyYWZmaWMgKGxvb3Auc2gpIG9uIFNVQiBmcm9tIHRoZSBDT0xMRUNUT1IuCiMgVGhlIHRyYWZmaWMgc3RhcnRzIGJ5IGl0c2VsZiB3aGVuIFNVQiBib290czsgdXNlIHRoaXMgdG8gcGF1c2UgaXQgKGZvciBleGFtcGxlIGJlZm9yZSBhIGNsZWFuIG1lYXN1cmVtZW50KS4KcHJpbnRmICcjIS9iaW4vc2hcbmVjaG8gY2lzY29cbicgPiAvdG1wLy5sYWJwYXNzOyBjaG1vZCA3MDAgL3RtcC8ubGFicGFzcwpleHBvcnQgU1NIX0FTS1BBU1M9L3RtcC8ubGFicGFzcyBTU0hfQVNLUEFTU19SRVFVSVJFPWZvcmNlIERJU1BMQVk9bm9uZQpPUFRTPSItbyBTdHJpY3RIb3N0S2V5Q2hlY2tpbmc9bm8gLW8gVXNlcktub3duSG9zdHNGaWxlPS9kZXYvbnVsbCAtbyBMb2dMZXZlbD1FUlJPUiAtbyBDb25uZWN0VGltZW91dD04IC1vIFB1YmtleUF1dGhlbnRpY2F0aW9uPW5vIgpjYXNlICIkezE6LXN0YXR1c30iIGluCiAgc3RhcnR8c3RvcHxzdGF0dXMpIHNzaCAkT1BUUyBjaXNjb0AxMC4yNTAuMC4xNiAibG9vcC5zaCAkMSIgMj4mMSA8L2Rldi9udWxsIHwgdHIgLWQgJ1xyJyA7OwogICopIGVjaG8gIlVzYWdlOiB0cmFmZmljIHN0YXJ0fHN0b3B8c3RhdHVzIjsgZXhpdCAyIDs7CmVzYWMK\nruncmd:\n- systemctl restart systemd-timesyncd\n"
+  - name: network-config
+    content: "#network-config\nnetwork:\n  version: 2\n  ethernets:\n    ens2:\n      dhcp4: false\n      addresses: [10.200.0.2/30]\n      routes:\n        - to: 10.200.0.0/16\n          via: 10.200.0.1\n    ens3:\n      dhcp4: false\n      addresses: [10.250.0.10/24]\n    ens4:\n      dhcp4: false\n      addresses: [198.18.128.3/18]\n      routes:\n        - to: default\n          via: 198.18.128.1\n      nameservers:\n        addresses: [198.18.128.1, 8.8.8.8]\n"
+  cpu_limit: null
+  cpus: 2
+  data_volume: null
+  hide_links: false
+  id: n8
+  image_definition: ubuntu-24-04-20250503
+  label: COLLECTOR
+  node_definition: ubuntu
+  parameters: {}
+  ram: 6144
+  tags:
+  - COLLECTOR
+  - ACCESS
+  - UBUNTU
+  x: 240
+  y: -240
+  interfaces:
+  - id: i0
+    label: ens2
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i1
+    label: ens3
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i2
+    label: ens4
+    mac_address: null
+    type: physical
+    slot: 2
+- boot_disk_size: null
+  configuration: []
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n9
+  image_definition: null
+  label: MGMT-SW
+  node_definition: unmanaged_switch
+  parameters: {}
+  ram: null
+  tags: []
+  x: 600
+  y: 0
+  interfaces:
+  - id: i0
+    label: port0
+    mac_address: null
+    type: physical
+    slot: 0
+  - id: i1
+    label: port1
+    mac_address: null
+    type: physical
+    slot: 1
+  - id: i2
+    label: port2
+    mac_address: null
+    type: physical
+    slot: 2
+  - id: i3
+    label: port3
+    mac_address: null
+    type: physical
+    slot: 3
+  - id: i4
+    label: port4
+    mac_address: null
+    type: physical
+    slot: 4
+  - id: i5
+    label: port5
+    mac_address: null
+    type: physical
+    slot: 5
+  - id: i6
+    label: port6
+    mac_address: null
+    type: physical
+    slot: 6
+  - id: i7
+    label: port7
+    mac_address: null
+    type: physical
+    slot: 7
+  - id: i8
+    label: port8
+    mac_address: null
+    type: physical
+    slot: 8
+- boot_disk_size: null
+  configuration:
+  - name: default
+    content: bridge0
+  cpu_limit: null
+  cpus: null
+  data_volume: null
+  hide_links: false
+  id: n10
+  image_definition: null
+  label: EXT
+  node_definition: external_connector
+  parameters: {}
+  ram: null
+  tags: []
+  x: 480
+  y: -480
+  interfaces:
+  - id: i0
+    label: port
+    mac_address: null
+    type: physical
+    slot: 0
+links:
+- id: l0
+  n1: n0
+  n2: n2
+  i1: i1
+  i2: i4
+  conditioning: {}
+  label: CORE-Ethernet0/0<->PE-A-GigabitEthernet0/0/0/0
+- id: l1
+  n1: n0
+  n2: n3
+  i1: i2
+  i2: i4
+  conditioning: {}
+  label: CORE-Ethernet0/1<->PE-B-GigabitEthernet0/0/0/0
+- id: l2
+  n1: n0
+  n2: n1
+  i1: i3
+  i2: i1
+  conditioning: {}
+  label: CORE-Ethernet0/2<->PE-ACC-Ethernet0/0
+- id: l3
+  n1: n1
+  n2: n6
+  i1: i2
+  i2: i0
+  conditioning: {}
+  label: PE-ACC-Ethernet0/1<->SUB-eth0
+- id: l4
+  n1: n1
+  n2: n7
+  i1: i3
+  i2: i0
+  conditioning: {}
+  label: PE-ACC-Ethernet0/2<->INET-SRV-eth0
+- id: l5
+  n1: n1
+  n2: n8
+  i1: i4
+  i2: i0
+  conditioning: {}
+  label: PE-ACC-Ethernet0/3<->COLLECTOR-ens2
+- id: l6
+  n1: n2
+  n2: n4
+  i1: i5
+  i2: i2
+  conditioning: {}
+  label: PE-A-GigabitEthernet0/0/0/1<->CGN-A1-GigabitEthernet2
+- id: l7
+  n1: n2
+  n2: n4
+  i1: i6
+  i2: i3
+  conditioning: {}
+  label: PE-A-GigabitEthernet0/0/0/2<->CGN-A1-GigabitEthernet3
+- id: l8
+  n1: n3
+  n2: n5
+  i1: i5
+  i2: i2
+  conditioning: {}
+  label: PE-B-GigabitEthernet0/0/0/1<->CGN-B1-GigabitEthernet2
+- id: l9
+  n1: n3
+  n2: n5
+  i1: i6
+  i2: i3
+  conditioning: {}
+  label: PE-B-GigabitEthernet0/0/0/2<->CGN-B1-GigabitEthernet3
+- id: l10
+  n1: n8
+  n2: n10
+  i1: i2
+  i2: i0
+  conditioning: {}
+  label: COLLECTOR-ens4<->EXT-port
+- id: l11
+  n1: n8
+  n2: n9
+  i1: i1
+  i2: i0
+  conditioning: {}
+  label: COLLECTOR-ens3<->MGMT-SW-port0
+- id: l12
+  n1: n0
+  n2: n9
+  i1: i6
+  i2: i1
+  conditioning: {}
+  label: CORE-Ethernet1/1<->MGMT-SW-port1
+- id: l13
+  n1: n2
+  n2: n9
+  i1: i1
+  i2: i2
+  conditioning: {}
+  label: PE-A-MgmtEth0/RP0/CPU0/0<->MGMT-SW-port2
+- id: l14
+  n1: n3
+  n2: n9
+  i1: i1
+  i2: i3
+  conditioning: {}
+  label: PE-B-MgmtEth0/RP0/CPU0/0<->MGMT-SW-port3
+- id: l15
+  n1: n4
+  n2: n9
+  i1: i1
+  i2: i4
+  conditioning: {}
+  label: CGN-A1-GigabitEthernet1<->MGMT-SW-port4
+- id: l16
+  n1: n5
+  n2: n9
+  i1: i1
+  i2: i5
+  conditioning: {}
+  label: CGN-B1-GigabitEthernet1<->MGMT-SW-port5
+- id: l17
+  n1: n6
+  n2: n9
+  i1: i1
+  i2: i6
+  conditioning: {}
+  label: SUB-eth1<->MGMT-SW-port6
+- id: l18
+  n1: n7
+  n2: n9
+  i1: i1
+  i2: i7
+  conditioning: {}
+  label: INET-SRV-eth1<->MGMT-SW-port7
+- id: l19
+  n1: n1
+  n2: n9
+  i1: i5
+  i2: i8
+  conditioning: {}
+  label: PE-ACC-Ethernet1/0<->MGMT-SW-port8
+lab:
+  description: CGN & Telemetry training - Lab 1 start state (preconfigured; the student configures Site A)
+  notes: ''
+  title: LAB1-START
+  version: 0.3.0
