@@ -16,8 +16,8 @@ Everything you need on the machine you use during the training (your laptop conn
 
 1. Connect the VPN of your dCloud session (see the Access Guide) and start the lab of the day in CML.
 2. Unzip this kit on your **Desktop** (right-click the ZIP, *Extract All*, choose the Desktop; or use the PowerShell command in the repository README). Do not run it from inside the ZIP.
-3. Double-click **`Start-PuTTY.cmd`**. It also creates two shortcuts on your Desktop, **CGN Lab - PuTTY** and **CGN Lab - Guides**: use them from now on. PuTTY asks you to accept the SSH host key of each machine the first time you reach it (the COLLECTOR, and then the device if you go through it): click **Accept**.
-4. You are on the **COLLECTOR**. To reach a device, either open its shortcut from the `connect` folder or choose its session in PuTTY (Session list, double-click).
+3. Double-click **`Start-PuTTY.cmd`**. It opens PuTTY with the list of saved sessions and creates, on your Desktop, **CGN Lab - PuTTY** (the session list), **CGN Lab - Guides** and a folder **CGN Lab - Devices** with one shortcut per device (COLLECTOR, CORE, PE-A ...): use them from now on. PuTTY asks you to accept the SSH host key of each machine the first time you reach it (the COLLECTOR, and then the device if you go through it): click **Accept**.
+4. Double-click a session in the list (COLLECTOR, CORE, PE-A ...), or open its shortcut from the Desktop folder **CGN Lab - Devices** (or the `connect` folder of the kit).
 
 Every lab device accepts user `cisco`, password `cisco`. PuTTY sends it for you.
 

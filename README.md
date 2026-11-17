@@ -12,7 +12,7 @@ Invoke-WebRequest https://github.com/dagarcescisco/cgn-telemetry-lab/releases/la
 Expand-Archive kit.zip -DestinationPath ([Environment]::GetFolderPath('Desktop')) -Force
 ```
 
-Or download **`cgn-telemetry-student-kit.zip`** from the [Releases](https://github.com/dagarcescisco/cgn-telemetry-lab/releases/latest) page with your browser and extract it on your Desktop. Then open the folder `cgn-telemetry-student-kit` and double-click `Start-PuTTY.cmd`: it creates the Desktop shortcuts **CGN Lab - PuTTY** and **CGN Lab - Guides**.
+Or download **`cgn-telemetry-student-kit.zip`** from the [Releases](https://github.com/dagarcescisco/cgn-telemetry-lab/releases/latest) page with your browser and extract it on your Desktop. Then open the folder `cgn-telemetry-student-kit` and double-click `Start-PuTTY.cmd`: it opens PuTTY with the list of sessions and creates the Desktop shortcuts **CGN Lab - PuTTY**, **CGN Lab - Guides** and a folder **CGN Lab - Devices** with one shortcut per device.
 
 ## What is in this repository
 
