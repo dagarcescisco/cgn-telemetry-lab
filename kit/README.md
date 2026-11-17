@@ -6,7 +6,7 @@ Everything you need on the machine you use during the training (your laptop conn
 
 | Folder / file | What it is |
 |---|---|
-| `guides/` | The lab guides (PDF): Access Guide, Lab 1, Lab 2, Lab 3 and Study Guides 1 to 5 |
+| `guides/` | The lab guides (PDF): Access Guide, Lab 1, Lab 2, Lab 3, Study Guides 1 to 5 and the optional Build Guide |
 | `Start-PuTTY.cmd` | Opens the portable PuTTY with the sessions already configured (no installation) |
 | `connect/` | One shortcut per device: double-click `PE-A.cmd` to land on PE-A directly |
 | `putty/` | Portable PuTTY (`putty.exe`) and its session definitions |
