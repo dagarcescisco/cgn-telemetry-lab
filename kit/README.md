@@ -2,6 +2,8 @@
 
 Everything you need on the machine you use during the training (your laptop connected through the VPN, or the dCloud Workstation).
 
+> Use the ZIP **`cgn-telemetry-student-kit.zip`** from the Releases page of the repository. It includes the portable `putty.exe`; the `kit/` folder of the repository alone does not.
+
 | Folder / file | What it is |
 |---|---|
 | `guides/` | The lab guides (PDF): Access Guide, Lab 1, Lab 2, Lab 3 and Study Guides 1 to 5 |

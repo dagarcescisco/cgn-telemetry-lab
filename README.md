@@ -20,7 +20,7 @@ Or download **`cgn-telemetry-student-kit.zip`** from the [Releases](https://gith
 |---|---|
 | `guides/` | The guides (PDF). Start with the **Access Guide**, then Lab 1, Lab 2 and Lab 3. The Study Guides explain each stage of the lab |
 | `labs/` | CML topology files (YAML) of the three training labs, for the dCloud CML 2.9. The instructors deploy them; import them yourself only if told to |
-| `kit/` | Source of the terminal kit: portable PuTTY sessions, OpenSSH configuration and shortcuts |
+| `kit/` | Source files of the terminal kit (PuTTY sessions, OpenSSH configuration, shortcuts). It does **not** include `putty.exe`: use the ZIP from the Releases page, which does |
 
 ## Training days
 
