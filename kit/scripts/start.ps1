@@ -14,7 +14,11 @@ Get-ChildItem -Path $kit -Recurse -File | Unblock-File -ErrorAction SilentlyCont
 $src = Get-Content (Join-Path $putty "sessions.reg") -Raw
 $tmp = Join-Path $env:TEMP "cgn-putty-sessions.reg"
 Set-Content -Path $tmp -Value $src -Encoding Unicode
-reg import $tmp 2>&1 | Out-Null
+$imp = reg import $tmp 2>&1
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "Could not load the PuTTY sessions: $imp" -ForegroundColor Red
+    Read-Host "Press Enter to continue anyway"
+}
 
 # 2. The lab devices are rebuilt between days and get new SSH host keys: forget the old ones so that PuTTY
 #    does not raise a "host key changed" alarm.
